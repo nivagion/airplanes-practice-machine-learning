@@ -1,0 +1,10 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}/training/.venv/Scripts/python.exe",
+  "python.analysis.extraPaths": ["${workspaceFolder}/data_preprocessing/src"],
+  "jupyter.notebookFileRoot": "${fileDirname}",
+  "files.exclude": {
+    "**/.venv*": true,
+    "**/tmp": true,
+    "**/__pycache__": true
+  }
+}

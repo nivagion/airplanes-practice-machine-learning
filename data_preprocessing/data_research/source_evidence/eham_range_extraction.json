@@ -1,0 +1,9 @@
+{
+  "archive_url": "https://zenodo.org/records/10074634/files/0_files.zip?download=1",
+  "member": "0_files/files/EHAM_20230315/EHAM_20230315_flights.parquet",
+  "compressed_start": 309790185,
+  "compressed_size": 196095608,
+  "uncompressed_size": 243480264,
+  "zip_crc32_verified": "c09a2447",
+  "sha256": "4cb0c59595c1cf37457fd7748167e1373206daf882167016ce0858255a9b3039"
+}

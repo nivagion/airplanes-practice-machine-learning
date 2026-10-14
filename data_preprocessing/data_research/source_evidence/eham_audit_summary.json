@@ -1,0 +1,28 @@
+{
+  "airport": "EHAM",
+  "runway": "18R",
+  "date": "2023-03-15",
+  "raw_parquet_rows": 6924104,
+  "raw_parquet_size_bytes": 243480264,
+  "raw_parquet_sha256": "4cb0c59595c1cf37457fd7748167e1373206daf882167016ce0858255a9b3039",
+  "initial_candidate_brackets": 351,
+  "distinct_callsigns": 351,
+  "distinct_aircraft": 272,
+  "all_snapshot_bracket_gaps_s": 1,
+  "stricter_speed_75_to_125_percent_brackets": 265,
+  "threshold_geometry": {
+    "latitude": 52.3602583333,
+    "longitude": 4.711725,
+    "heading_true_deg": 183.2,
+    "primary_source_current_aip": "https://eaip.lvnl.nl/web/eaip/AIRAC%20AMDT%2004-2026_2026_04_16/documents/PDF/AMDT.pdf",
+    "primary_source_2023_12_28_approach_chart": "https://eaip.lvnl.nl/web/2024-12-12-AIRAC/graphics/eAIP/EH-AD-2.EHAM-IAC-18R-1.pdf",
+    "historical_2023_03_geometry_match": "not independently confirmed"
+  },
+  "limitations": [
+    "Export lacks onground and lastposupdate, so precise position freshness cannot be measured independently.",
+    "UTC follows OpenSky semantics and publication day; Parquet timezone metadata is naive.",
+    "All candidate brackets are initial geometric and kinematic audit findings, not final labels or confirmed touchdowns.",
+    "Interpolated crossing fractions are estimates bounded by sampled positions, not exact subsecond ground truth.",
+    "Zenodo metadata states open access but supplies no explicit license; article license is CC BY 4.0."
+  ]
+}

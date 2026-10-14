@@ -1,0 +1,111 @@
+{
+  "airport_icao": "EHAM",
+  "runway_direction": "18R",
+  "trajectory_date": "2023-03-15",
+  "geometry_status": "historically_supported_exact_cycle_unverified",
+  "threshold_latitude_deg": 52.36025833333333,
+  "threshold_longitude_deg": 4.711725,
+  "threshold_dms": "522136.93N 0044242.21E",
+  "true_bearing_deg": 183.2,
+  "runway_width_m": 60,
+  "physical_runway_length_m": 3800,
+  "landing_distance_available_m": 3530,
+  "threshold_displacement_from_north_physical_end_m": 270,
+  "threshold_elevation_ft_current_aip": -13.2,
+  "threshold_elevation_ft_historical_chart_rounded": -13,
+  "runway_18r_far_end": {
+    "latitude_deg": 52.32858055555555,
+    "longitude_deg": 4.708836111111111,
+    "dms": "521942.89N 0044231.81E",
+    "note": "Official runway-18R end, also the runway-36L threshold on the 2019 aerodrome chart. Current AD 2.12 lists 36L THR latitude 521942.88N, a 0.01 arc-second difference."
+  },
+  "north_physical_end_current_aip": {
+    "latitude_deg": 52.36268055555556,
+    "longitude_deg": 4.711947222222222,
+    "dms": "522145.65N 0044243.01E",
+    "note": "Current runway-36L far end; draw as physical end, never substitute for the displaced landing threshold."
+  },
+  "sources": [
+    {
+      "title": "LVNL AIP Netherlands AD 2.EHAM-ADC, 15 AUG 2019, AIRAC AMDT 09/2019",
+      "author": "Air Traffic Control the Netherlands",
+      "url": "https://opennav.com/pdf/EHAM/EH-AD-2.EHAM-ADC-A2s_2019-08-15.pdf",
+      "local_file": "lvnl_EHAM_ADC_2019-08-15_opennav_mirror.pdf",
+      "source_type": "Primary LVNL-authored publication, served by OpenNav mirror",
+      "date": "2019-08-15",
+      "pages": [
+        1
+      ],
+      "supports": [
+        "Exact threshold 18R coordinates",
+        "True/GEO direction 183.20 degrees",
+        "36L threshold coordinates",
+        "3800 x 60 m physical runway",
+        "270 m displaced threshold",
+        "Rounded threshold elevation -13 ft AMSL"
+      ],
+      "sha256": "3a5ae4a6cb6b4c0c2ac877efce1a9af3d24b4831ff9796f061b19004608a7848",
+      "bytes": 267382
+    },
+    {
+      "title": "Feitenonderzoek intersectiestarts Schiphol, report 22.171.32",
+      "author": "Aviation Consultants To70",
+      "publisher": "Dutch Human Environment and Transport Inspectorate (ILENT)",
+      "url": "https://www.ilent.nl/site/binaries/site-content/collections/documents/luchtvaart/geluidsoverlast-luchtvaart/rapporten/feitenonderzoek-intersectiestarts-schiphol-aviation-consultants-to70/Feitenonderzoek%2Bintersectiestarts%2BSchiphol%2B-%2BAviation%2BConsultants%2Bto70%2B-%2Bmaart%2B2023.pdf",
+      "local_file": "To70_ILENT_intersectionstarts_2023-03-16.pdf",
+      "source_type": "Primary commissioned research report reproducing AIP declared distances",
+      "date": "2023-03-16",
+      "pages": [
+        49
+      ],
+      "supports": [
+        "18R LDA 3530 m",
+        "18R displaced threshold 270 m",
+        "36L runway 3800 m"
+      ],
+      "note": "Report date is one day after the trajectories. It corroborates the displacement but does not provide threshold coordinates.",
+      "sha256": "3bc178c5705cbdb20805ac544f6b51ce337d79a0b007ec1ccfe700c0e93f8dd2",
+      "bytes": 3988748
+    },
+    {
+      "title": "Touchdown before threshold: Risks associated with a large aircraft landing on a short runway",
+      "author": "Dutch Safety Board",
+      "url": "https://www.onderzoeksraad.nl/wp-content/uploads/2024/07/Touchdown-before-threshold-Risks-associated-with-a-large-aircraft-landing-on-a-short-runway.pdf",
+      "local_file": null,
+      "source_type": "Primary accident investigation, Appendix C reproduces AIP Netherlands information",
+      "publication_year": 2024,
+      "pages": [
+        56,
+        57
+      ],
+      "supports": [
+        "Exact 18R threshold coordinates",
+        "True bearing 183.20 degrees",
+        "18R far-end coordinates",
+        "3800 x 60 m",
+        "270 m displaced threshold",
+        "Historical threshold elevation -13.0 ft AMSL"
+      ],
+      "note": "Appendix C.4 says its lighting information is current at 11 January 2023. That footnote is specific to lighting; do not silently extend its date to all coordinate tables. The PDF is readable through web extraction; direct download returned HTTP 403."
+    },
+    {
+      "title": "LVNL AIP Netherlands EHAM AD 2.12, AIRAC AMDT 04/2026",
+      "author": "Air Traffic Control the Netherlands",
+      "url": "https://eaip.lvnl.nl/web/eaip/AIRAC%20AMDT%2004-2026_2026_04_16/documents/PDF/AMDT.pdf",
+      "source_type": "Current primary AIP, already recorded in eham_18r_official_geometry.json",
+      "date": "2026-04-16",
+      "supports": [
+        "Same exact 18R coordinates and true bearing",
+        "18R far-end and northern physical-end coordinates",
+        "Current threshold elevation -13.2 ft AMSL"
+      ]
+    }
+  ],
+  "interpretation": "Before-date LVNL geometry and later primary AIP geometry agree exactly for runway 18R coordinates and true axis. A near-date 16 March 2023 report independently corroborates the 270 m displacement. This is sufficient supporting evidence for the mock exercise, while retaining the exact-cycle limitation.",
+  "limitations": [
+    "The exact AIP cycle effective on 15 March 2023 and historical NOTAMs have not been retrieved; temporary threshold changes are not independently ruled out.",
+    "Attempts to read historical LVNL 2023 cycle URLs failed. Agreement of before/after sources is supporting evidence, not proof that no intermediate changes occurred.",
+    "The ADS-B export has no lastposupdate field. Geometry verification does not establish position freshness or exact subsecond threshold crossing time.",
+    "Elevation values vary slightly between publications. ADS-B altitude should not be treated as calibrated height above this threshold without pressure/altitude datum handling."
+  ]
+}

@@ -1,0 +1,11 @@
+* text=auto
+.gitattributes text eol=lf
+*.py text eol=lf
+*.ipynb text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.html text eol=lf
+*.csv text eol=crlf
+# Preserve the downloaded recorder-source reference, including its original spacing.
+data_preprocessing/data_research/tartanaviation_recording_source.py whitespace=-blank-at-eol

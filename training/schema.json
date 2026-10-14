@@ -1,0 +1,41 @@
+{
+  "feature_columns": [
+    "latitude_deg",
+    "longitude_deg",
+    "baro_altitude_m",
+    "groundspeed_mps",
+    "track_deg",
+    "vertical_rate_mps",
+    "distance_to_threshold_m",
+    "cross_track_m",
+    "track_error_deg",
+    "speed_toward_threshold_mps",
+    "baseline_eta_s"
+  ],
+  "target_column": "remaining_time_s",
+  "target_unit": "seconds",
+  "group_column": "flight_id",
+  "split_status": "unsplit",
+  "metadata_columns": [
+    "example_id",
+    "flight_id",
+    "icao24",
+    "callsign",
+    "runway",
+    "snapshot_time_utc"
+  ],
+  "warning": "Future trajectories and labels_audit.csv are for label construction/visual checking, never model inputs.",
+  "units": {
+    "latitude_deg": "WGS84 degrees",
+    "longitude_deg": "WGS84 degrees",
+    "baro_altitude_m": "barometric metres, pressure uncorrected",
+    "groundspeed_mps": "m/s",
+    "track_deg": "true degrees",
+    "vertical_rate_mps": "m/s, positive up",
+    "distance_to_threshold_m": "m, positive before threshold",
+    "cross_track_m": "signed m",
+    "track_error_deg": "signed true degrees",
+    "speed_toward_threshold_mps": "m/s",
+    "baseline_eta_s": "seconds"
+  }
+}

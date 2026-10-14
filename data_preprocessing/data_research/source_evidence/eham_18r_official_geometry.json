@@ -1,0 +1,16 @@
+{
+  "airport_icao": "EHAM",
+  "runway_direction": "18R",
+  "threshold_latitude_deg": 52.36025833333333,
+  "threshold_longitude_deg": 4.711725,
+  "true_bearing_deg": 183.20,
+  "threshold_elevation_ft": -13.2,
+  "source": "LVNL AIP Netherlands, EHAM AD 2.12, AIRAC AMDT 04/2026",
+  "source_url": "https://eaip.lvnl.nl/web/eaip/AIRAC%20AMDT%2004-2026_2026_04_16/documents/PDF/AMDT.pdf",
+  "source_threshold_dms": "522136.93N 0044242.21E",
+  "supporting_later_chart_url": "https://eaip.lvnl.nl/web/2024-12-12-AIRAC/graphics/eAIP/EH-AD-2.EHAM-IAC-18R-1.pdf",
+  "supporting_chart_revision": "28 December 2023",
+  "supporting_chart_threshold_dms": "522136.9N 0044242.2E",
+  "audit_use": "Source suitability and preliminary crossing diagnostics only",
+  "historical_match_status": "Exact March 2023 AIP cycle has not yet been checked. Compare with the archive's runway database and verify the historical threshold before final labels."
+}
