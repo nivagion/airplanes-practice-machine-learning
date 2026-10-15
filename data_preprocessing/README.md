@@ -58,4 +58,4 @@ Send **share/schiphol_18R_split.zip**. It includes those three files and a viewe
 - `GLOSSARY.md`: agreed domain terms.
 - `data_research/design.md`: confirmed scope and choices.
 
-This is a mock exercise with one day of data and interpolated ADS-B labels. Independent position freshness and the precise March 2023 AIP/NOTAM cycle remain unverified. No model has been fitted and no split has been made.
+This original preprocessing exercise uses one day of data and interpolated ADS-B labels. Independent position freshness and the precise March 2023 AIP/NOTAM cycle remain unverified. Its exported CSV remains unsplit; model training and in-memory partitions are documented in the [training workspace](../training/README.md).

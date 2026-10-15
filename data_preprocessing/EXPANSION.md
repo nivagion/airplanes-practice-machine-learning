@@ -6,8 +6,10 @@ The expanded pipeline predicts the same target as the original exercise:
 remaining_time_s = interpolated_threshold_crossing_time_utc - confirmed_alignment_snapshot_time_utc
 ```
 
-One accepted flight approach produces one row. The table remains unsplit. No
-model is trained. The original `training/194_airplanes/training.csv`, notebooks and
+One accepted flight approach produces one row. The preprocessing scripts export
+an unsplit table; model training is separate in
+[03_more_airplanes.ipynb](../training/2596_airplanes/03_more_airplanes.ipynb).
+The original `training/194_airplanes/training.csv`, notebooks and
 `data_preprocessing/prepared/` baseline are preserved.
 
 ## Files for your next training run
@@ -24,9 +26,9 @@ true runway bearing, threshold elevation and the pressure-altitude height proxy.
 Airport/runway names, IDs, timestamps and quality flags are metadata. Future
 crossing and landing-continuation evidence remains in separate audit files.
 
-The feature count changes from 11 to 16: a later model should derive its input
-size from the new schema. Place the later notebook in `training/2596_airplanes/` beside its
-`training.csv` and `schema.json`; the existing notebooks in
+The feature count changes from 11 to 16: models should derive their input
+size from the new schema. Notebook 03 lives in `training/2596_airplanes/` beside its
+`training.csv` and `schema.json`; the original notebooks in
 `training/194_airplanes/` continue using the original 194 rows.
 Use `flight_id` as the group key. Split later by flight and time, and assess
 held-out airports separately if you want to test transfer to a new airfield.

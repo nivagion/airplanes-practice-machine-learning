@@ -16,7 +16,7 @@ from PIL import Image, ImageDraw
 
 
 ROOT = Path(__file__).resolve().parents[1]
-NOTEBOOKS = ROOT / "training" / "194_airplanes"
+NOTEBOOKS = ROOT / "training"
 OUTPUT = ROOT / "docs" / "images"
 
 
@@ -26,7 +26,10 @@ def export_panel(notebook_name, filename, crop_fraction, clean_right_margin=Fals
     candidates = [
         output["data"]["image/png"]
         for cell in notebook["cells"]
-        if "train_mae_line" in "".join(cell.get("source", []))
+        if any(
+            marker in "".join(cell.get("source", []))
+            for marker in ("train_mae_line", "line_train_mae")
+        )
         for output in cell.get("outputs", [])
         if "image/png" in output.get("data", {})
     ]
@@ -54,5 +57,6 @@ def export_panel(notebook_name, filename, crop_fraction, clean_right_margin=Fals
 
 
 if __name__ == "__main__":
-    export_panel("01_training.ipynb", "01-training-mae.png", (0.502, 1.0), True)
-    export_panel("02_two_hidden_layers.ipynb", "02-two-hidden-layers-mae.png", (0.493, 0.496))
+    export_panel("194_airplanes/01_training.ipynb", "01-training-mae.png", (0.502, 1.0), True)
+    export_panel("194_airplanes/02_two_hidden_layers.ipynb", "02-two-hidden-layers-mae.png", (0.493, 0.496))
+    export_panel("2596_airplanes/03_more_airplanes.ipynb", "03-more-airplanes-mae.png", (0.493, 0.496))
