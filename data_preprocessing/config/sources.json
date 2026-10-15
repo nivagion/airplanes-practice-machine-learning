@@ -1,0 +1,451 @@
+{
+  "manifest_version": 1,
+  "assets": [
+    {
+      "local_path": "data/raw/prc2025/flights_train.zip",
+      "url": "https://zenodo.org/api/records/19184662/files/flights_train.zip/content",
+      "size": 3300971911,
+      "checksum": "md5:255cef578697dc79d5d98958b8a880f5"
+    },
+    {
+      "local_path": "data/raw/prc2025/flightlist_train.parquet",
+      "url": "https://zenodo.org/api/records/19184662/files/flightlist_train.parquet/content",
+      "size": 361072,
+      "checksum": "md5:1c7b9c86aa9e366236828e2439184d37"
+    },
+    {
+      "local_path": "data/raw/prc2025/flights_rank.zip",
+      "url": "https://zenodo.org/api/records/19184662/files/flights_rank.zip/content",
+      "size": 631703907,
+      "checksum": "md5:f8c7af3510d5ffd0d5662866d12aa760"
+    },
+    {
+      "local_path": "data/raw/prc2025/flightlist_rank.parquet",
+      "url": "https://zenodo.org/api/records/19184662/files/flightlist_rank.parquet/content",
+      "size": 69002,
+      "checksum": "md5:a5285c9f50171d376dabb478f9d286c3"
+    },
+    {
+      "local_path": "data/raw/prc2025/flights_final.zip",
+      "url": "https://zenodo.org/api/records/19184662/files/flights_final.zip/content",
+      "size": 982763659,
+      "checksum": "md5:517df5d6210aad1286900611963345f4"
+    },
+    {
+      "local_path": "data/raw/prc2025/flightlist_final.parquet",
+      "url": "https://zenodo.org/api/records/19184662/files/flightlist_final.parquet/content",
+      "size": 98418,
+      "checksum": "md5:c70836916aa5d27fb792a4391f5ac339"
+    },
+    {
+      "local_path": "data/raw/prc2025/readme.txt",
+      "url": "https://zenodo.org/api/records/19184662/files/readme.txt/content",
+      "size": 7821,
+      "checksum": "md5:bb62f84f63c10b08d4381e82f83abe33"
+    },
+    {
+      "local_path": "data/raw/prc2025/runways.csv",
+      "url": "https://raw.githubusercontent.com/davidmegginson/ourairports-data/03565b612558de9d9ec27ca7a1e99a4f9d2619ba/runways.csv",
+      "size": 3969042,
+      "checksum": "sha256:a1575b7885909a01824b33d69cfb9fc8f8acc106a19c192635e7a2bda464726f"
+    },
+    {
+      "url": "https://zenodo.org/records/10074634/files/0_files.zip?download=1",
+      "size": 505887939,
+      "checksum": "md5:ab07064323cd8586b3138ec47eaee01f",
+      "local_path": "data/raw/dorbolo_0_files.zip"
+    },
+    {
+      "local_path": "data/raw/prc2024/README.txt",
+      "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/3564b87c-f1fc-4414-975c-641232da52bf",
+      "size": 4426,
+      "checksum": "md5:d427525a8a52477459ec719220d3e5d0"
+    },
+    {
+      "local_path": "data/raw/prc2024/flight_list.csv",
+      "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/2bfbef1a-a75b-4045-a46e-3325bf363c27",
+      "size": 101091663,
+      "checksum": "md5:2da9db49afcae255eab0828f1e2f8575"
+    },
+    {
+      "local_path": "data/raw/prc2024/2022-01-01.parquet",
+      "url": "https://s3.opensky-network.org/competition-data/2022-01-01.parquet",
+      "size": 565395752,
+      "checksum": "md5:7c391420cf1c944d747798fae620973f",
+      "publisher_file_url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/693dd226-fe74-4d4a-bc64-6b7666a10d2a"
+    },
+    {
+      "local_path": "data/raw/prc2024/2022-01-02.parquet",
+      "url": "https://s3.opensky-network.org/competition-data/2022-01-02.parquet",
+      "size": 769812822,
+      "checksum": "md5:ad64111ec808e93c2c024b13f9a500b6",
+      "publisher_file_url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/06b13de2-880f-4d80-bbca-1776f7228fdd"
+    },
+    {
+      "local_path": "data/raw/prc2024/2022-01-03.parquet",
+      "url": "https://s3.opensky-network.org/competition-data/2022-01-03.parquet",
+      "size": 691930751,
+      "checksum": "md5:cc76893375b09a914d903ebf66739151",
+      "publisher_file_url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/6aa0f1f6-fa3c-4b4b-9cc4-f9c409f6a658"
+    },
+    {
+      "local_path": "data/raw/prc2024/2022-01-04.parquet",
+      "url": "https://s3.opensky-network.org/competition-data/2022-01-04.parquet",
+      "size": 623289160,
+      "checksum": "md5:c2d288e8ca923ece86af990d0ee7cc47",
+      "publisher_file_url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/35fc0646-1308-4dd1-9b9e-c548494f7137"
+    },
+    {
+      "local_path": "data/raw/prc2024/2022-01-05.parquet",
+      "url": "https://s3.opensky-network.org/competition-data/2022-01-05.parquet",
+      "size": 614182342,
+      "checksum": "md5:e8b0e9b1a86f4885a2ae3223ccc17f6b",
+      "publisher_file_url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/313ffc6b-f929-43ce-b368-6cdacd437a89"
+    },
+    {
+      "local_path": "data/raw/prc2024/2022-01-06.parquet",
+      "url": "https://s3.opensky-network.org/competition-data/2022-01-06.parquet",
+      "size": 618199420,
+      "checksum": "md5:9e6687b3c9763731d71082c5dab0ebec",
+      "publisher_file_url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/6522f2e2-0f8d-49bc-b401-bbd15756605a"
+    },
+    {
+      "local_path": "data/raw/prc2024/2022-01-07.parquet",
+      "url": "https://s3.opensky-network.org/competition-data/2022-01-07.parquet",
+      "size": 683513701,
+      "checksum": "md5:fd7c2a4b6e3c14783a16b5dfab7d794c",
+      "publisher_file_url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/c5da57d7-c800-4c44-98b6-12471e25099e"
+    },
+    {
+      "local_path": "data/raw/prc2024/2022-06-01.parquet",
+      "url": "https://s3.opensky-network.org/competition-data/2022-06-01.parquet",
+      "size": 972465448,
+      "checksum": "md5:3a1f8eb201f39ad89eed5cf75eb4f888",
+      "publisher_file_url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/2a97e51f-dbbe-4844-90fc-bf24ddd2de78"
+    },
+    {
+      "local_path": "data/raw/prc2024/2022-06-02.parquet",
+      "url": "https://s3.opensky-network.org/competition-data/2022-06-02.parquet",
+      "size": 997356262,
+      "checksum": "md5:a002bd86827837c13eb64a3577e4338a",
+      "publisher_file_url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/871872f9-4923-430e-a3e0-ce1b9d20065e"
+    },
+    {
+      "local_path": "data/raw/prc2024/2022-06-03.parquet",
+      "url": "https://s3.opensky-network.org/competition-data/2022-06-03.parquet",
+      "size": 1044543290,
+      "checksum": "md5:78eda27843446cd37009419e412b9f22",
+      "publisher_file_url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/5a94bd69-72ca-46cc-88b9-c0840aecd9fb"
+    },
+    {
+      "local_path": "data/raw/prc2024/2022-06-04.parquet",
+      "url": "https://s3.opensky-network.org/competition-data/2022-06-04.parquet",
+      "size": 1065532338,
+      "checksum": "md5:6b4be8e827293b1e08b8a503eb565e76",
+      "publisher_file_url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/572b994c-9d9f-4179-a23f-1296185eb41a"
+    },
+    {
+      "local_path": "data/raw/prc2024/2022-06-05.parquet",
+      "url": "https://s3.opensky-network.org/competition-data/2022-06-05.parquet",
+      "size": 1055300208,
+      "checksum": "md5:585c045934ce14eeaafba6d46123b0d9",
+      "publisher_file_url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/9c71d1e5-8493-46ba-8099-8d51d869ebab"
+    },
+    {
+      "local_path": "data/raw/prc2024/2022-06-06.parquet",
+      "url": "https://s3.opensky-network.org/competition-data/2022-06-06.parquet",
+      "size": 995259865,
+      "checksum": "md5:364dd6587cb1cd5a5d6236043006a1ac",
+      "publisher_file_url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/cb22a919-3e35-4338-9242-d91ed6875899"
+    },
+    {
+      "local_path": "data/raw/prc2024/2022-06-07.parquet",
+      "url": "https://s3.opensky-network.org/competition-data/2022-06-07.parquet",
+      "size": 985586279,
+      "checksum": "md5:713843e01ade4877bdbeeee1506f0b50",
+      "publisher_file_url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/17d30933-e51d-49a9-a158-c64f97d29b0b"
+    },
+    {
+      "local_path": "data/raw/prc2024/2022-09-01.parquet",
+      "url": "https://s3.opensky-network.org/competition-data/2022-09-01.parquet",
+      "size": 1108072030,
+      "checksum": "md5:251e8b5adf5f3a63a3feed7cc135aa06",
+      "publisher_file_url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/196aa252-b35e-491b-a243-27f16cd5ee5e"
+    },
+    {
+      "local_path": "data/raw/prc2024/2022-09-02.parquet",
+      "url": "https://s3.opensky-network.org/competition-data/2022-09-02.parquet",
+      "size": 1110512267,
+      "checksum": "md5:c59854ebdf5272275502d476830a5f2c",
+      "publisher_file_url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/c8cc2da5-b1ad-4667-8ea6-18b0dfe732e7"
+    },
+    {
+      "local_path": "data/raw/prc2024/2022-09-03.parquet",
+      "url": "https://s3.opensky-network.org/competition-data/2022-09-03.parquet",
+      "size": 1145551007,
+      "checksum": "md5:0e52ac87d2f0377b6544a81e5a9b3ba0",
+      "publisher_file_url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/53dc4ae9-4922-46cd-be25-921b8ce384ec"
+    },
+    {
+      "local_path": "data/raw/prc2024/2022-09-04.parquet",
+      "url": "https://s3.opensky-network.org/competition-data/2022-09-04.parquet",
+      "size": 1138828347,
+      "checksum": "md5:c945f7c90459504e95308ebfc458a73c",
+      "publisher_file_url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/e097fca6-139f-41d4-88af-216083e2e51c"
+    },
+    {
+      "local_path": "data/raw/prc2024/2022-09-05.parquet",
+      "url": "https://s3.opensky-network.org/competition-data/2022-09-05.parquet",
+      "size": 1079627995,
+      "checksum": "md5:b53fc6d0e9ebafad226fcbfaa21600fd",
+      "publisher_file_url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/faa82d75-5387-4ad4-9580-167e91c1ae9f"
+    },
+    {
+      "local_path": "data/raw/prc2024/2022-09-06.parquet",
+      "url": "https://s3.opensky-network.org/competition-data/2022-09-06.parquet",
+      "size": 1034778025,
+      "checksum": "md5:24da91b18095cc5307453db68800a5e2",
+      "publisher_file_url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/c506f07b-e38f-48f5-9a07-ec834f9a88a2"
+    },
+    {
+      "local_path": "data/raw/prc2024/2022-09-07.parquet",
+      "url": "https://s3.opensky-network.org/competition-data/2022-09-07.parquet",
+      "size": 1080700896,
+      "checksum": "md5:2a57d547dcffc55c2d0da0c87ac730c8",
+      "publisher_file_url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/a7a2c000-17fa-4335-8d0b-b34c8bef7568"
+    }
+  ],
+  "sources": [
+    {
+      "dataset_id": "prc2025_train",
+      "collection_id": "prc2025_v1",
+      "adapter": "prc2025",
+      "source_url": "https://zenodo.org/records/19184662",
+      "doi": "10.5281/zenodo.19184662",
+      "archive_path": "data/raw/prc2025/flights_train.zip",
+      "archive_checksum": "md5:255cef578697dc79d5d98958b8a880f5",
+      "metadata_path": "data/raw/prc2025/flightlist_train.parquet",
+      "metadata_checksum": "md5:1c7b9c86aa9e366236828e2439184d37",
+      "license": "CC-BY-4.0 (publisher readme)",
+      "timezone": "UTC",
+      "altitude_type": "uncorrected_barometric_pressure",
+      "unit_policy": "prc2025_v1_empirically_inferred_ft_kt_fpm",
+      "freshness": "raw_redecoded_ADSB_positions_no_lastposupdate_field",
+      "unit_evidence": "data_research/source_evidence/prc2025_unit_audit.json"
+    },
+    {
+      "dataset_id": "prc2025_rank",
+      "collection_id": "prc2025_v1",
+      "adapter": "prc2025",
+      "source_url": "https://zenodo.org/records/19184662",
+      "doi": "10.5281/zenodo.19184662",
+      "archive_path": "data/raw/prc2025/flights_rank.zip",
+      "archive_checksum": "md5:f8c7af3510d5ffd0d5662866d12aa760",
+      "metadata_path": "data/raw/prc2025/flightlist_rank.parquet",
+      "metadata_checksum": "md5:a5285c9f50171d376dabb478f9d286c3",
+      "license": "CC-BY-4.0 (publisher readme)",
+      "timezone": "UTC",
+      "altitude_type": "uncorrected_barometric_pressure",
+      "unit_policy": "prc2025_v1_empirically_inferred_ft_kt_fpm",
+      "freshness": "raw_redecoded_ADSB_positions_no_lastposupdate_field",
+      "unit_evidence": "data_research/source_evidence/prc2025_unit_audit.json"
+    },
+    {
+      "dataset_id": "prc2025_final",
+      "collection_id": "prc2025_v1",
+      "adapter": "prc2025",
+      "source_url": "https://zenodo.org/records/19184662",
+      "doi": "10.5281/zenodo.19184662",
+      "archive_path": "data/raw/prc2025/flights_final.zip",
+      "archive_checksum": "md5:517df5d6210aad1286900611963345f4",
+      "metadata_path": "data/raw/prc2025/flightlist_final.parquet",
+      "metadata_checksum": "md5:c70836916aa5d27fb792a4391f5ac339",
+      "license": "CC-BY-4.0 (publisher readme)",
+      "timezone": "UTC",
+      "altitude_type": "uncorrected_barometric_pressure",
+      "unit_policy": "prc2025_v1_empirically_inferred_ft_kt_fpm",
+      "freshness": "raw_redecoded_ADSB_positions_no_lastposupdate_field",
+      "unit_evidence": "data_research/source_evidence/prc2025_unit_audit.json"
+    },
+    {
+      "dataset_id": "dorbolo_EHAM_20230315",
+      "adapter": "dorbolo",
+      "collection_id": "dorbolo20230315",
+      "source_url": "https://zenodo.org/records/10074634",
+      "doi": "10.5281/zenodo.10074634",
+      "local_path": "data/raw/EHAM_20230315_flights.parquet",
+      "checksum": "sha256:4cb0c59595c1cf37457fd7748167e1373206daf882167016ce0858255a9b3039",
+      "archive_member": "0_files/files/EHAM_20230315/EHAM_20230315_flights.parquet",
+      "source_date": "2023-03-15",
+      "airport": "EHAM",
+      "license": "open_access_explicit_dataset_license_unspecified",
+      "timezone": "UTC",
+      "raw_units": {
+        "altitude": "ft",
+        "groundspeed": "kt",
+        "vertical_rate": "ft/min"
+      },
+      "altitude_type": "uncorrected_barometric_pressure",
+      "freshness": "one_second_sampled_states_no_lastposupdate_field"
+    },
+    {
+      "dataset_id": "dorbolo_EGLL_20230315",
+      "adapter": "dorbolo",
+      "collection_id": "dorbolo20230315",
+      "source_url": "https://zenodo.org/records/10074634",
+      "doi": "10.5281/zenodo.10074634",
+      "local_path": "data/raw/EGLL_20230315_flights.parquet",
+      "checksum": "sha256:c067b4c15b49b411d7e08b88c387c44751b17efedc111ccea00487046dcd5581",
+      "archive_member": "0_files/files/EGLL_20230315/EGLL_20230315_flights.parquet",
+      "source_date": "2023-03-15",
+      "airport": "EGLL",
+      "license": "open_access_explicit_dataset_license_unspecified",
+      "timezone": "UTC",
+      "raw_units": {
+        "altitude": "ft",
+        "groundspeed": "kt",
+        "vertical_rate": "ft/min"
+      },
+      "altitude_type": "uncorrected_barometric_pressure",
+      "freshness": "one_second_sampled_states_no_lastposupdate_field"
+    },
+    {
+      "dataset_id": "prc2024_week1",
+      "collection_id": "prc2024_4tu_version2",
+      "adapter": "prc2024",
+      "source_url": "https://data.4tu.nl/datasets/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4",
+      "doi": "10.4121/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4",
+      "license": "CC-BY-4.0 (publisher README)",
+      "metadata_path": "data/raw/prc2024/flight_list.csv",
+      "metadata_checksum": "md5:2da9db49afcae255eab0828f1e2f8575",
+      "local_paths": [
+        "data/raw/prc2024/2022-01-01.parquet",
+        "data/raw/prc2024/2022-01-02.parquet",
+        "data/raw/prc2024/2022-01-03.parquet",
+        "data/raw/prc2024/2022-01-04.parquet",
+        "data/raw/prc2024/2022-01-05.parquet",
+        "data/raw/prc2024/2022-01-06.parquet",
+        "data/raw/prc2024/2022-01-07.parquet"
+      ],
+      "checksums": [
+        "md5:7c391420cf1c944d747798fae620973f",
+        "md5:ad64111ec808e93c2c024b13f9a500b6",
+        "md5:cc76893375b09a914d903ebf66739151",
+        "md5:c2d288e8ca923ece86af990d0ee7cc47",
+        "md5:e8b0e9b1a86f4885a2ae3223ccc17f6b",
+        "md5:9e6687b3c9763731d71082c5dab0ebec",
+        "md5:fd7c2a4b6e3c14783a16b5dfab7d794c"
+      ],
+      "coverage": "2022-01-01 through 2022-01-07 UTC; bordering partial flights can be rejected",
+      "timezone": "UTC",
+      "raw_units": {
+        "altitude": "ft",
+        "groundspeed": "kt",
+        "vertical_rate": "ft/min"
+      },
+      "altitude_type": "uncorrected_barometric_pressure",
+      "freshness": "one_second_OpenSky_sampled_states_no_lastposupdate_field",
+      "metadata_excluded_from_features": [
+        "tow",
+        "arrival_time",
+        "actual_offblock_time",
+        "flight_duration",
+        "taxiout_time"
+      ],
+      "units_reference_url": "https://prc-data-challenge.netlify.app/data.html",
+      "download_note": "Anonymous OpenSky publisher S3 objects; verified against 4TU version-2 published MD5 checksums."
+    },
+    {
+      "dataset_id": "prc2024_june_week",
+      "collection_id": "prc2024_4tu_version2",
+      "adapter": "prc2024",
+      "source_url": "https://data.4tu.nl/datasets/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4",
+      "doi": "10.4121/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4",
+      "license": "CC-BY-4.0 (publisher README)",
+      "metadata_path": "data/raw/prc2024/flight_list.csv",
+      "metadata_checksum": "md5:2da9db49afcae255eab0828f1e2f8575",
+      "local_paths": [
+        "data/raw/prc2024/2022-06-01.parquet",
+        "data/raw/prc2024/2022-06-02.parquet",
+        "data/raw/prc2024/2022-06-03.parquet",
+        "data/raw/prc2024/2022-06-04.parquet",
+        "data/raw/prc2024/2022-06-05.parquet",
+        "data/raw/prc2024/2022-06-06.parquet",
+        "data/raw/prc2024/2022-06-07.parquet"
+      ],
+      "checksums": [
+        "md5:3a1f8eb201f39ad89eed5cf75eb4f888",
+        "md5:a002bd86827837c13eb64a3577e4338a",
+        "md5:78eda27843446cd37009419e412b9f22",
+        "md5:6b4be8e827293b1e08b8a503eb565e76",
+        "md5:585c045934ce14eeaafba6d46123b0d9",
+        "md5:364dd6587cb1cd5a5d6236043006a1ac",
+        "md5:713843e01ade4877bdbeeee1506f0b50"
+      ],
+      "coverage": "2022-06-01 through 2022-06-07 UTC; bordering partial flights can be rejected",
+      "timezone": "UTC",
+      "raw_units": {
+        "altitude": "ft",
+        "groundspeed": "kt",
+        "vertical_rate": "ft/min"
+      },
+      "altitude_type": "uncorrected_barometric_pressure",
+      "freshness": "one_second_OpenSky_sampled_states_no_lastposupdate_field",
+      "metadata_excluded_from_features": [
+        "tow",
+        "arrival_time",
+        "actual_offblock_time",
+        "flight_duration",
+        "taxiout_time"
+      ],
+      "units_reference_url": "https://prc-data-challenge.netlify.app/data.html",
+      "download_note": "Anonymous OpenSky publisher S3 objects; verified against 4TU version-2 published MD5 checksums."
+    },
+    {
+      "dataset_id": "prc2024_september_week",
+      "collection_id": "prc2024_4tu_version2",
+      "adapter": "prc2024",
+      "source_url": "https://data.4tu.nl/datasets/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4",
+      "doi": "10.4121/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4",
+      "license": "CC-BY-4.0 (publisher README)",
+      "metadata_path": "data/raw/prc2024/flight_list.csv",
+      "metadata_checksum": "md5:2da9db49afcae255eab0828f1e2f8575",
+      "local_paths": [
+        "data/raw/prc2024/2022-09-01.parquet",
+        "data/raw/prc2024/2022-09-02.parquet",
+        "data/raw/prc2024/2022-09-03.parquet",
+        "data/raw/prc2024/2022-09-04.parquet",
+        "data/raw/prc2024/2022-09-05.parquet",
+        "data/raw/prc2024/2022-09-06.parquet",
+        "data/raw/prc2024/2022-09-07.parquet"
+      ],
+      "checksums": [
+        "md5:251e8b5adf5f3a63a3feed7cc135aa06",
+        "md5:c59854ebdf5272275502d476830a5f2c",
+        "md5:0e52ac87d2f0377b6544a81e5a9b3ba0",
+        "md5:c945f7c90459504e95308ebfc458a73c",
+        "md5:b53fc6d0e9ebafad226fcbfaa21600fd",
+        "md5:24da91b18095cc5307453db68800a5e2",
+        "md5:2a57d547dcffc55c2d0da0c87ac730c8"
+      ],
+      "coverage": "2022-09-01 through 2022-09-07 UTC; bordering partial flights can be rejected",
+      "timezone": "UTC",
+      "raw_units": {
+        "altitude": "ft",
+        "groundspeed": "kt",
+        "vertical_rate": "ft/min"
+      },
+      "altitude_type": "uncorrected_barometric_pressure",
+      "freshness": "one_second_OpenSky_sampled_states_no_lastposupdate_field",
+      "metadata_excluded_from_features": [
+        "tow",
+        "arrival_time",
+        "actual_offblock_time",
+        "flight_duration",
+        "taxiout_time"
+      ],
+      "units_reference_url": "https://prc-data-challenge.netlify.app/data.html",
+      "download_note": "Anonymous OpenSky publisher S3 objects; verified against 4TU version-2 published MD5 checksums."
+    }
+  ]
+}

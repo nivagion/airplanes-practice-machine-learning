@@ -1,0 +1,17 @@
+{
+  "processing_version": "multi-airport-v1",
+  "output_directory": "prepared/multi_airport",
+  "training_copy_directory": "../training/{row_count}_airplanes",
+  "minimum_rows": 1000,
+  "runway_ambiguity_margin_m": 25.0,
+  "source_manifest": "config/sources.json",
+  "runway_registry": "config/runways.json",
+  "rules_file": "config/approach_rules.json",
+  "notes": [
+    "One row per accepted recorded flight approach; no duplicate snapshots to inflate the row count.",
+    "No train/validation/test split or model training is performed.",
+    "Existing training/194_airplanes/training.csv and the original single-runway outputs are preserved.",
+    "First confirmed runway assignment uses only past observations, never the future crossing.",
+    "Runway-end elevation subtraction gives an uncorrected pressure-altitude proxy, not true AGL."
+  ]
+}

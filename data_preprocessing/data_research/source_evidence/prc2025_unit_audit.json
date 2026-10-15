@@ -1,0 +1,69 @@
+{
+  "source_record": "https://zenodo.org/records/19184662",
+  "published_documentation": "SI: altitude m, groundspeed m/s, vertical rate m/s",
+  "inference": "ADS-B subset behaves as nominal feet, knots, feet/minute. Source v1 retained with explicit unit_quality flag.",
+  "evidence": [
+    {
+      "flight_id": "prc770822360",
+      "airport": "EHAM",
+      "sample_sha256": "5104e6df10d8f4870999855e5bc545e47506de48be7979724b217934098048dd",
+      "motion_pairs_used": 15288,
+      "median_position_speed_divided_by_raw_groundspeed": 0.4847706533521903,
+      "median_position_speed_divided_by_knots_converted_to_mps": 0.9423187646154886,
+      "raw_altitude_p99": 35999.928,
+      "altitude_quantization_step_observed": 24.9936,
+      "vertical_rate_quantization_observed": 64.0
+    },
+    {
+      "flight_id": "prc770866486",
+      "airport": "KJFK",
+      "sample_sha256": "54e775d72e0d5cfc6e0d1dce4eb00fa5729a802f471367915c3d5f353b817e5d",
+      "motion_pairs_used": 10203,
+      "median_position_speed_divided_by_raw_groundspeed": 0.4110877316472848,
+      "median_position_speed_divided_by_knots_converted_to_mps": 0.7990906230724758,
+      "raw_altitude_p99": 40000.1232,
+      "altitude_quantization_step_observed": 24.9936,
+      "vertical_rate_quantization_observed": 64.0
+    },
+    {
+      "flight_id": "prc770867379",
+      "airport": "KBOS",
+      "sample_sha256": "20ce038f5eaecfb599756be9f1bdf750a59b93be72f32138e44728ef148fc4e6",
+      "motion_pairs_used": 8547,
+      "median_position_speed_divided_by_raw_groundspeed": 0.5037626210924404,
+      "median_position_speed_divided_by_knots_converted_to_mps": 0.9792361965079834,
+      "raw_altitude_p99": 39050.0616,
+      "altitude_quantization_step_observed": 24.9936,
+      "vertical_rate_quantization_observed": 64.0
+    },
+    {
+      "flight_id": "prc770897620",
+      "airport": "KIAD",
+      "sample_sha256": "920ec49429dc6b209ad0f26714ea782b0136d2078d3f9525c608536440509eeb",
+      "motion_pairs_used": 10824,
+      "median_position_speed_divided_by_raw_groundspeed": 0.49507768207138764,
+      "median_position_speed_divided_by_knots_converted_to_mps": 0.9623540256247275,
+      "raw_altitude_p99": 39050.0616,
+      "altitude_quantization_step_observed": 24.9936,
+      "vertical_rate_quantization_observed": 64.0
+    },
+    {
+      "flight_id": "prc770914657",
+      "airport": "KLAX",
+      "sample_sha256": "793ac72fce1c43b2325a72f0d362448bf5ef3befbff2126e01559500953a9c40",
+      "motion_pairs_used": 3783,
+      "median_position_speed_divided_by_raw_groundspeed": 0.49904247614427616,
+      "median_position_speed_divided_by_knots_converted_to_mps": 0.970060968746973,
+      "raw_altitude_p99": 38025.0192,
+      "altitude_quantization_step_observed": 24.9936,
+      "vertical_rate_quantization_observed": 64.0
+    }
+  ],
+  "interpretation": [
+    "Position/time speed is about half the raw groundspeed number; knots conversion makes the robust ratio near one.",
+    "Cruise altitudes around 36000-40000 raw units, near-25-unit altitude steps and 64-unit vertical-rate steps support aviation units.",
+    "Near-25 steps equal 25*0.999744. No speculative correction to that tiny factor is made; raw nominal feet are preserved.",
+    "This is an empirical inference, not confirmation from the publishers. Future source versions must be audited again.",
+    "Only adsb rows are used; acars rows and all fuel labels are excluded."
+  ]
+}

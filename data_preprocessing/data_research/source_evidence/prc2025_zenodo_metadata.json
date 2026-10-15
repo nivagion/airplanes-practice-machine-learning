@@ -1,0 +1,234 @@
+{
+  "created": "2026-03-25T15:57:08.844002+00:00",
+  "modified": "2026-03-25T15:57:10.107623+00:00",
+  "id": 19184662,
+  "conceptrecid": "19184661",
+  "doi": "10.5281/zenodo.19184662",
+  "conceptdoi": "10.5281/zenodo.19184661",
+  "doi_url": "https://doi.org/10.5281/zenodo.19184662",
+  "metadata": {
+    "title": "Aircraft Fuel Burn Estimation Data Challenge",
+    "doi": "10.5281/zenodo.19184662",
+    "publication_date": "2026-03-23",
+    "description": "<p>Dataset for the PRC (Performance Review Commission) Data Challenge 2025, organized by EUROCONTROL. The challenge is to predict aircraft fuel consumption during flight intervals using ADS-B trajectory data, ACARS fuel telemetry, and flight metadata. The dataset contains around 15,000 flights from April to October 2025, covering 27 aircraft types across global routes. See the readme file for the full data description.</p>\n<p>The methodology for the data pipeline, with more details on the data challenge, is described in the paper:</p>\n<blockquote>\n<p>Sun, J., Spinielli, E., &amp; Strohmeier, M. (2026). Aircraft Fuel Burn Estimation: The EUROCONTROL PRC 2025 Data Challenge. Journal of Open Aviation Science, 4(3).&nbsp;<a href=\"https://doi.org/10.59490/joas.2026.8750\">https://doi.org/10.59490/joas.2026.8750</a></p>\n</blockquote>",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "Sun, Junzi",
+        "affiliation": "Delft University of Technology",
+        "orcid": "0000-0003-3888-1192"
+      },
+      {
+        "name": "Spinielli, Enrico",
+        "affiliation": "Eurocontrol",
+        "orcid": "0000-0001-8584-9131"
+      },
+      {
+        "name": "Strohmeier, Martin",
+        "affiliation": "University of Oxford",
+        "orcid": "0000-0002-1936-0933"
+      }
+    ],
+    "related_identifiers": [
+      {
+        "identifier": "10.59490/joas.2026.8750",
+        "relation": "isDescribedBy",
+        "resource_type": "publication-journal",
+        "scheme": "doi"
+      }
+    ],
+    "resource_type": {
+      "title": "Dataset",
+      "type": "dataset"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "19184661"
+          }
+        }
+      ]
+    }
+  },
+  "title": "Aircraft Fuel Burn Estimation Data Challenge",
+  "links": {
+    "self": "https://zenodo.org/api/records/19184662",
+    "self_html": "https://zenodo.org/records/19184662",
+    "preview_html": "https://zenodo.org/records/19184662?preview=1",
+    "doi": "https://doi.org/10.5281/zenodo.19184662",
+    "self_doi": "https://doi.org/10.5281/zenodo.19184662",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.19184662",
+    "reserve_doi": "https://zenodo.org/api/records/19184662/draft/pids/doi",
+    "parent": "https://zenodo.org/api/records/19184661",
+    "parent_html": "https://zenodo.org/records/19184661",
+    "parent_doi": "https://doi.org/10.5281/zenodo.19184661",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.19184661",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:19184662/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:19184662/sequence/default",
+    "files": "https://zenodo.org/api/records/19184662/files",
+    "media_files": "https://zenodo.org/api/records/19184662/media-files",
+    "latest": "https://zenodo.org/api/records/19184662/versions/latest",
+    "latest_html": "https://zenodo.org/records/19184662/latest",
+    "versions": "https://zenodo.org/api/records/19184662/versions",
+    "draft": "https://zenodo.org/api/records/19184662/draft",
+    "access_links": "https://zenodo.org/api/records/19184662/access/links",
+    "access_grants": "https://zenodo.org/api/records/19184662/access/grants",
+    "access_users": "https://zenodo.org/api/records/19184662/access/users",
+    "access_request": "https://zenodo.org/api/records/19184662/access/request",
+    "access": "https://zenodo.org/api/records/19184662/access",
+    "communities": "https://zenodo.org/api/records/19184662/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/19184662/communities-suggestions",
+    "request_deletion": "https://zenodo.org/api/records/19184662/request-deletion",
+    "file_modification": "https://zenodo.org/api/records/19184662/file-modification",
+    "quota_increase": "https://zenodo.org/api/records/19184662/quota-increase",
+    "requests": "https://zenodo.org/api/records/19184662/requests"
+  },
+  "updated": "2026-03-25T15:57:10.107623+00:00",
+  "recid": "19184662",
+  "revision": 4,
+  "files": [
+    {
+      "id": "a9a47e1c-fed1-4554-92b6-15d92d0bbaca",
+      "key": "readme.txt",
+      "size": 7821,
+      "checksum": "md5:bb62f84f63c10b08d4381e82f83abe33",
+      "links": {
+        "self": "https://zenodo.org/api/records/19184662/files/readme.txt/content"
+      }
+    },
+    {
+      "id": "94f731c2-b1c4-4305-9cf8-11977caf4194",
+      "key": "flightlist_rank.parquet",
+      "size": 69002,
+      "checksum": "md5:a5285c9f50171d376dabb478f9d286c3",
+      "links": {
+        "self": "https://zenodo.org/api/records/19184662/files/flightlist_rank.parquet/content"
+      }
+    },
+    {
+      "id": "3c417dc9-9cf6-4435-bd64-d336ad0150d9",
+      "key": "flights_train.zip",
+      "size": 3300971911,
+      "checksum": "md5:255cef578697dc79d5d98958b8a880f5",
+      "links": {
+        "self": "https://zenodo.org/api/records/19184662/files/flights_train.zip/content"
+      }
+    },
+    {
+      "id": "ef06cd4b-08ce-4e5b-a1b0-c00a372a6b08",
+      "key": "fuel_rank_submit.parquet",
+      "size": 638349,
+      "checksum": "md5:4dc4137fa1f8ff243a1f75d3c53cac05",
+      "links": {
+        "self": "https://zenodo.org/api/records/19184662/files/fuel_rank_submit.parquet/content"
+      }
+    },
+    {
+      "id": "45ee556e-b1e6-49e0-9a24-c95a107124c2",
+      "key": "airports.parquet",
+      "size": 151553,
+      "checksum": "md5:c0f2d599ee9989385e27d28d18c9ac75",
+      "links": {
+        "self": "https://zenodo.org/api/records/19184662/files/airports.parquet/content"
+      }
+    },
+    {
+      "id": "49c03d17-b0ae-46b9-b336-6317db26a1c1",
+      "key": "flightlist_final.parquet",
+      "size": 98418,
+      "checksum": "md5:c70836916aa5d27fb792a4391f5ac339",
+      "links": {
+        "self": "https://zenodo.org/api/records/19184662/files/flightlist_final.parquet/content"
+      }
+    },
+    {
+      "id": "f0e34ea9-e1b7-48aa-972f-849dec3f624b",
+      "key": "flights_final.zip",
+      "size": 982763659,
+      "checksum": "md5:517df5d6210aad1286900611963345f4",
+      "links": {
+        "self": "https://zenodo.org/api/records/19184662/files/flights_final.zip/content"
+      }
+    },
+    {
+      "id": "b8aac701-07b7-4d3c-8bcd-87bd445f3e33",
+      "key": "flightlist_train.parquet",
+      "size": 361072,
+      "checksum": "md5:1c7b9c86aa9e366236828e2439184d37",
+      "links": {
+        "self": "https://zenodo.org/api/records/19184662/files/flightlist_train.parquet/content"
+      }
+    },
+    {
+      "id": "47eeb645-dfd5-4b2c-b5b3-da597e4ecf48",
+      "key": "flights_rank.zip",
+      "size": 631703907,
+      "checksum": "md5:f8c7af3510d5ffd0d5662866d12aa760",
+      "links": {
+        "self": "https://zenodo.org/api/records/19184662/files/flights_rank.zip/content"
+      }
+    },
+    {
+      "id": "cd9ad790-9901-4ec6-b89f-2fc4012af32a",
+      "key": "fuel_rank.parquet",
+      "size": 683090,
+      "checksum": "md5:97f44f189f41df4957338b20e48f647c",
+      "links": {
+        "self": "https://zenodo.org/api/records/19184662/files/fuel_rank.parquet/content"
+      }
+    },
+    {
+      "id": "0340c1d2-2ec0-4a75-aa64-20d75bdc49e2",
+      "key": "fuel_train.parquet",
+      "size": 3715395,
+      "checksum": "md5:4ff4df3aca1a2d0850f48ef08395f1f9",
+      "links": {
+        "self": "https://zenodo.org/api/records/19184662/files/fuel_train.parquet/content"
+      }
+    },
+    {
+      "id": "9411126e-0ad6-447f-80f4-3732f73bb767",
+      "key": "fuel_final_submit.parquet",
+      "size": 1528389,
+      "checksum": "md5:93e3dcb9b5fe28a7325ec5f70c31a909",
+      "links": {
+        "self": "https://zenodo.org/api/records/19184662/files/fuel_final_submit.parquet/content"
+      }
+    },
+    {
+      "id": "a7e5df1c-8fef-467d-a4fa-9e732df766e3",
+      "key": "fuel_final.parquet",
+      "size": 1030742,
+      "checksum": "md5:90aff13775122bacbe0054040d7e83b6",
+      "links": {
+        "self": "https://zenodo.org/api/records/19184662/files/fuel_final.parquet/content"
+      }
+    }
+  ],
+  "swh": {},
+  "owners": [
+    {
+      "id": "36140"
+    }
+  ],
+  "status": "published",
+  "stats": {
+    "downloads": 3540,
+    "unique_downloads": 1741,
+    "views": 1277,
+    "unique_views": 1095,
+    "version_downloads": 3540,
+    "version_unique_downloads": 1741,
+    "version_unique_views": 1095,
+    "version_views": 1277
+  },
+  "state": "done",
+  "submitted": true
+}

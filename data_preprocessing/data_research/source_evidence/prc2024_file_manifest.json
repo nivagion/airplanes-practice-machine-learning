@@ -1,0 +1,2241 @@
+{
+  "README.txt": {
+    "local_path": "data/raw/prc2024/README.txt",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/3564b87c-f1fc-4414-975c-641232da52bf",
+    "size": 4426,
+    "checksum": "md5:d427525a8a52477459ec719220d3e5d0"
+  },
+  "2022-01-01.parquet": {
+    "local_path": "data/raw/prc2024/2022-01-01.parquet",
+    "url": "https://s3.opensky-network.org/competition-data/2022-01-01.parquet",
+    "size": 565395752,
+    "checksum": "md5:7c391420cf1c944d747798fae620973f",
+    "publisher_file_url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/693dd226-fe74-4d4a-bc64-6b7666a10d2a"
+  },
+  "2022-01-02.parquet": {
+    "local_path": "data/raw/prc2024/2022-01-02.parquet",
+    "url": "https://s3.opensky-network.org/competition-data/2022-01-02.parquet",
+    "size": 769812822,
+    "checksum": "md5:ad64111ec808e93c2c024b13f9a500b6",
+    "publisher_file_url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/06b13de2-880f-4d80-bbca-1776f7228fdd"
+  },
+  "2022-01-03.parquet": {
+    "local_path": "data/raw/prc2024/2022-01-03.parquet",
+    "url": "https://s3.opensky-network.org/competition-data/2022-01-03.parquet",
+    "size": 691930751,
+    "checksum": "md5:cc76893375b09a914d903ebf66739151",
+    "publisher_file_url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/6aa0f1f6-fa3c-4b4b-9cc4-f9c409f6a658"
+  },
+  "2022-01-04.parquet": {
+    "local_path": "data/raw/prc2024/2022-01-04.parquet",
+    "url": "https://s3.opensky-network.org/competition-data/2022-01-04.parquet",
+    "size": 623289160,
+    "checksum": "md5:c2d288e8ca923ece86af990d0ee7cc47",
+    "publisher_file_url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/35fc0646-1308-4dd1-9b9e-c548494f7137"
+  },
+  "2022-01-05.parquet": {
+    "local_path": "data/raw/prc2024/2022-01-05.parquet",
+    "url": "https://s3.opensky-network.org/competition-data/2022-01-05.parquet",
+    "size": 614182342,
+    "checksum": "md5:e8b0e9b1a86f4885a2ae3223ccc17f6b",
+    "publisher_file_url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/313ffc6b-f929-43ce-b368-6cdacd437a89"
+  },
+  "2022-01-06.parquet": {
+    "local_path": "data/raw/prc2024/2022-01-06.parquet",
+    "url": "https://s3.opensky-network.org/competition-data/2022-01-06.parquet",
+    "size": 618199420,
+    "checksum": "md5:9e6687b3c9763731d71082c5dab0ebec",
+    "publisher_file_url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/6522f2e2-0f8d-49bc-b401-bbd15756605a"
+  },
+  "2022-01-07.parquet": {
+    "local_path": "data/raw/prc2024/2022-01-07.parquet",
+    "url": "https://s3.opensky-network.org/competition-data/2022-01-07.parquet",
+    "size": 683513701,
+    "checksum": "md5:fd7c2a4b6e3c14783a16b5dfab7d794c",
+    "publisher_file_url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/c5da57d7-c800-4c44-98b6-12471e25099e"
+  },
+  "2022-01-08.parquet": {
+    "local_path": "data/raw/prc2024/2022-01-08.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/9d59421a-fb33-4a26-a32c-8d0afc1fb244",
+    "size": 686444193,
+    "checksum": "md5:105cbdae48c4a74f9770e7704554c493"
+  },
+  "2022-01-09.parquet": {
+    "local_path": "data/raw/prc2024/2022-01-09.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/c0e0467d-957c-4a3e-b250-158b0d74c495",
+    "size": 719011889,
+    "checksum": "md5:9c88e5c6ca17224b87bc66beccf9a530"
+  },
+  "2022-01-10.parquet": {
+    "local_path": "data/raw/prc2024/2022-01-10.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/dbefe9f8-7348-44b3-8dc3-b743379a66d9",
+    "size": 614202684,
+    "checksum": "md5:798758df7dd444f90449d722e6a9da12"
+  },
+  "2022-01-11.parquet": {
+    "local_path": "data/raw/prc2024/2022-01-11.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/28502d33-90a9-4b87-8253-d4f21ae8e9ce",
+    "size": 503830540,
+    "checksum": "md5:229e8e4fb458e16e92a742281a976332"
+  },
+  "2022-01-12.parquet": {
+    "local_path": "data/raw/prc2024/2022-01-12.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/967d7262-8ae4-413b-98a7-0b1733f7f87c",
+    "size": 502243991,
+    "checksum": "md5:76bb8312be33fb8bfa2dbf1b8eccc9a2"
+  },
+  "2022-01-13.parquet": {
+    "local_path": "data/raw/prc2024/2022-01-13.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/71def444-76e4-42ce-9d9f-883ee8625540",
+    "size": 541585743,
+    "checksum": "md5:f1876de397db1cd4ce2c2bdc20eb6215"
+  },
+  "2022-01-14.parquet": {
+    "local_path": "data/raw/prc2024/2022-01-14.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/cbbb352e-0e43-4f77-928a-d72cff5f5a3b",
+    "size": 584441929,
+    "checksum": "md5:31bd99130a91f1c345152f8a99332f35"
+  },
+  "2022-01-15.parquet": {
+    "local_path": "data/raw/prc2024/2022-01-15.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/f6a4852a-46fc-4249-92dc-a9b3007dcc52",
+    "size": 587268631,
+    "checksum": "md5:223726073b131b299b7d035ecff538a1"
+  },
+  "2022-01-16.parquet": {
+    "local_path": "data/raw/prc2024/2022-01-16.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/4f6b8697-d5ad-4f28-b21d-6b189f6c9bae",
+    "size": 636604435,
+    "checksum": "md5:4482a1d66492e16cef1178dbc1b6c67a"
+  },
+  "2022-01-17.parquet": {
+    "local_path": "data/raw/prc2024/2022-01-17.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/e18427c5-d3ed-4c70-abc9-0c12d499a808",
+    "size": 535399913,
+    "checksum": "md5:f6a86af043a95b5a3d54679cf132a6b1"
+  },
+  "2022-01-18.parquet": {
+    "local_path": "data/raw/prc2024/2022-01-18.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/91479bff-877e-4b7b-a0fa-b4489d754781",
+    "size": 445282399,
+    "checksum": "md5:1791bb167a8c48287413f0180b89125f"
+  },
+  "2022-01-19.parquet": {
+    "local_path": "data/raw/prc2024/2022-01-19.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/00622939-0f13-4a92-bda0-9f654a0ed7bd",
+    "size": 461855335,
+    "checksum": "md5:491ae7cb9ad2846e61a75b6bd6fac5a9"
+  },
+  "2022-01-20.parquet": {
+    "local_path": "data/raw/prc2024/2022-01-20.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/20e97b0e-de2b-4e2f-9900-9771197ce636",
+    "size": 532441281,
+    "checksum": "md5:1bef379310c79101b2d2333391f21e23"
+  },
+  "2022-01-21.parquet": {
+    "local_path": "data/raw/prc2024/2022-01-21.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/295191de-6282-4040-97dc-6157799495a6",
+    "size": 577857686,
+    "checksum": "md5:7539df8326e9784e4bd3eacc201cb061"
+  },
+  "2022-01-22.parquet": {
+    "local_path": "data/raw/prc2024/2022-01-22.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/f73c0d73-5bb2-493a-93b3-3189e79f1883",
+    "size": 591963097,
+    "checksum": "md5:712cf7340634620f0dadeb2d64a24157"
+  },
+  "2022-01-23.parquet": {
+    "local_path": "data/raw/prc2024/2022-01-23.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/1beaa031-808c-47bf-a820-8e0c6b06051f",
+    "size": 596563780,
+    "checksum": "md5:cc36a58c328286ffe02e7bdd956473d1"
+  },
+  "2022-01-24.parquet": {
+    "local_path": "data/raw/prc2024/2022-01-24.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/f958b93c-ce7c-4576-99a5-843bebddc750",
+    "size": 365277271,
+    "checksum": "md5:0fa64f8131299aef56babf66b8d323bd"
+  },
+  "2022-01-25.parquet": {
+    "local_path": "data/raw/prc2024/2022-01-25.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/0755fa37-ed6b-4409-bee4-acc7979fdffb",
+    "size": 252106036,
+    "checksum": "md5:258af6161c60293728653437ca444344"
+  },
+  "2022-01-26.parquet": {
+    "local_path": "data/raw/prc2024/2022-01-26.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/7f5d39a2-3b8f-4735-8232-f757d1f552b4",
+    "size": 417571100,
+    "checksum": "md5:48578b7d40f4f1c1f65eb947cc741acb"
+  },
+  "2022-01-27.parquet": {
+    "local_path": "data/raw/prc2024/2022-01-27.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/4a804a66-bd67-4c92-96c5-ebf1a2e0fb1f",
+    "size": 502010833,
+    "checksum": "md5:4cef89354f5831310d21c886baadd145"
+  },
+  "2022-01-28.parquet": {
+    "local_path": "data/raw/prc2024/2022-01-28.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/4fb00dc2-cc72-4453-94aa-9c60174e9da4",
+    "size": 564156154,
+    "checksum": "md5:1ab4169859c909e1742a5dd8412f2dcc"
+  },
+  "2022-01-29.parquet": {
+    "local_path": "data/raw/prc2024/2022-01-29.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/362aabde-a0aa-40a8-9597-b7c51206cdfe",
+    "size": 554502667,
+    "checksum": "md5:1e91c6bdf5843e8609f248091095af1b"
+  },
+  "2022-01-30.parquet": {
+    "local_path": "data/raw/prc2024/2022-01-30.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/aa042e98-6477-499b-aa7f-393c2853c4b6",
+    "size": 585248345,
+    "checksum": "md5:10f9f041eda531b5c1d5138a21a23ff6"
+  },
+  "2022-01-31.parquet": {
+    "local_path": "data/raw/prc2024/2022-01-31.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/718c22b6-0b94-45e1-83e8-c0bfbc2cbd88",
+    "size": 396370964,
+    "checksum": "md5:db5e2d1c3ca42028bd239f6a541b7c1d"
+  },
+  "2022-02-01.parquet": {
+    "local_path": "data/raw/prc2024/2022-02-01.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/62d8d9f9-e4df-40e1-8514-ba670f897bd9",
+    "size": 441743355,
+    "checksum": "md5:ca71a375eb91301a35451f9a92ef7c60"
+  },
+  "2022-02-02.parquet": {
+    "local_path": "data/raw/prc2024/2022-02-02.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/9a2146e9-3aa4-4ba3-bac9-95aff9175741",
+    "size": 482030108,
+    "checksum": "md5:7122040147f30cb341344dc35e7f81b7"
+  },
+  "2022-02-03.parquet": {
+    "local_path": "data/raw/prc2024/2022-02-03.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/c2b0fb96-77cd-41ed-817e-2160381f4c9e",
+    "size": 524984906,
+    "checksum": "md5:f4326fba24a4d2e397e6be04a0f42a31"
+  },
+  "2022-02-04.parquet": {
+    "local_path": "data/raw/prc2024/2022-02-04.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/7e699c9f-480e-4a55-b04c-f1e556520edd",
+    "size": 563169401,
+    "checksum": "md5:0f7f1eb0629d474d3d2b9bc2416d751d"
+  },
+  "2022-02-05.parquet": {
+    "local_path": "data/raw/prc2024/2022-02-05.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/763edd75-e9a8-4ff2-a174-4a595e74ac5f",
+    "size": 579949212,
+    "checksum": "md5:8257eebdf7e4502887a0b888d72a45b8"
+  },
+  "2022-02-06.parquet": {
+    "local_path": "data/raw/prc2024/2022-02-06.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/88c485e2-5592-418e-bbde-ef11f2154f45",
+    "size": 625884913,
+    "checksum": "md5:2815554d6ab4ff841b6224ba23900047"
+  },
+  "2022-02-07.parquet": {
+    "local_path": "data/raw/prc2024/2022-02-07.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/448d84bc-c154-4b6c-af86-d3b511331f89",
+    "size": 529021963,
+    "checksum": "md5:6eefd98261be48ae0209fe62ca66884f"
+  },
+  "2022-02-08.parquet": {
+    "local_path": "data/raw/prc2024/2022-02-08.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/c8a44f74-f696-43c9-a601-037586c0579c",
+    "size": 447150798,
+    "checksum": "md5:27e149893c5b6eccf733259bbce3c398"
+  },
+  "2022-02-09.parquet": {
+    "local_path": "data/raw/prc2024/2022-02-09.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/c6e993d3-8fbf-4750-b862-cffdd6a63c3a",
+    "size": 472034685,
+    "checksum": "md5:7fbaac29d6c97cb3a4534b35a6728f9c"
+  },
+  "2022-02-10.parquet": {
+    "local_path": "data/raw/prc2024/2022-02-10.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/197d807a-e894-495c-8cd2-1494e9da64cf",
+    "size": 542129329,
+    "checksum": "md5:0b2ea17cd7b5bf02cf64dc4679224ac2"
+  },
+  "2022-02-11.parquet": {
+    "local_path": "data/raw/prc2024/2022-02-11.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/85d1cd52-efdb-42bf-8eac-e89bdb08127e",
+    "size": 602692783,
+    "checksum": "md5:cbf017c3e016f02a4ebcf17c22f214bb"
+  },
+  "2022-02-12.parquet": {
+    "local_path": "data/raw/prc2024/2022-02-12.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/11ff6f66-5c39-4fed-b663-1c7cd87662a8",
+    "size": 631297886,
+    "checksum": "md5:b813f27229de569c395ddf8dd5f53aa5"
+  },
+  "2022-02-13.parquet": {
+    "local_path": "data/raw/prc2024/2022-02-13.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/371b05e8-6199-4a78-bbfa-673ffa260ddd",
+    "size": 641068741,
+    "checksum": "md5:d5582ec63a25eae3367f2be3cf786c07"
+  },
+  "2022-02-14.parquet": {
+    "local_path": "data/raw/prc2024/2022-02-14.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/3061ef7c-a0f2-4970-ab72-cecb721dde39",
+    "size": 553067066,
+    "checksum": "md5:6a8da2e13ed950896c38a0367e8df76f"
+  },
+  "2022-02-15.parquet": {
+    "local_path": "data/raw/prc2024/2022-02-15.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/9c19a7ff-290a-4e9e-b454-32ca37730eed",
+    "size": 480283262,
+    "checksum": "md5:013765661c10dfca2104987cc1d09ab9"
+  },
+  "2022-02-16.parquet": {
+    "local_path": "data/raw/prc2024/2022-02-16.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/515dcabc-fa9a-4604-83fa-56272bf3d529",
+    "size": 492011492,
+    "checksum": "md5:058f09b86cef26f8ce39a4f150fe6a43"
+  },
+  "2022-02-17.parquet": {
+    "local_path": "data/raw/prc2024/2022-02-17.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/c171212b-0e65-4e0e-b77a-97e32d2ebc51",
+    "size": 566288200,
+    "checksum": "md5:3cf9ccd0bfe2eaef454310b4ba918558"
+  },
+  "2022-02-18.parquet": {
+    "local_path": "data/raw/prc2024/2022-02-18.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/e5249ee5-3e75-4150-916b-be0f5e67fb12",
+    "size": 605075939,
+    "checksum": "md5:70bd95decb58ce48b4fd8918cfdd7186"
+  },
+  "2022-02-19.parquet": {
+    "local_path": "data/raw/prc2024/2022-02-19.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/8dfed683-4f43-4400-a832-1cd150e0e059",
+    "size": 659293836,
+    "checksum": "md5:05d3d690d9d1ec17659fb83b7095b17a"
+  },
+  "2022-02-20.parquet": {
+    "local_path": "data/raw/prc2024/2022-02-20.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/47712221-77a6-4bd4-933c-3f2cc76de808",
+    "size": 687334188,
+    "checksum": "md5:f512915423c8f1ade6b9e67966942f93"
+  },
+  "2022-02-21.parquet": {
+    "local_path": "data/raw/prc2024/2022-02-21.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/02cabefc-a784-444a-8aba-5b022b15ea86",
+    "size": 588449387,
+    "checksum": "md5:09ca93c0739e64e6cf01b8d294d5906b"
+  },
+  "2022-02-22.parquet": {
+    "local_path": "data/raw/prc2024/2022-02-22.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/ac51fb7b-6977-4494-8959-e965a72a6782",
+    "size": 496837709,
+    "checksum": "md5:88e06998f8e8d30d861c777b872193db"
+  },
+  "2022-02-23.parquet": {
+    "local_path": "data/raw/prc2024/2022-02-23.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/98628d49-ba75-465f-bf22-f6b5dfc167e3",
+    "size": 533997346,
+    "checksum": "md5:6d96273e75142b4c12545dfd162b78d9"
+  },
+  "2022-02-24.parquet": {
+    "local_path": "data/raw/prc2024/2022-02-24.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/d0aaa5de-c55f-4c57-961c-ddd9e3a1a30a",
+    "size": 599190896,
+    "checksum": "md5:a0d2dae92a64711114294ac98b656cf9"
+  },
+  "2022-02-25.parquet": {
+    "local_path": "data/raw/prc2024/2022-02-25.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/84686f59-b8eb-40b8-9321-5e1531da9942",
+    "size": 643625878,
+    "checksum": "md5:d1cf30d802c0160dee5a3a3ce98c337f"
+  },
+  "2022-02-26.parquet": {
+    "local_path": "data/raw/prc2024/2022-02-26.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/693cc116-71ec-4651-9b40-88cbc2ee4561",
+    "size": 684928665,
+    "checksum": "md5:5db3e792f32523c3e6fababaaef7a499"
+  },
+  "2022-02-27.parquet": {
+    "local_path": "data/raw/prc2024/2022-02-27.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/7404d1f8-93ba-431a-9ead-86af05e2d821",
+    "size": 692229325,
+    "checksum": "md5:2372feda70d5a03819be66b6dbff2d94"
+  },
+  "2022-02-28.parquet": {
+    "local_path": "data/raw/prc2024/2022-02-28.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/5be506a0-82a1-4b34-be5e-963a964bf5d7",
+    "size": 531416905,
+    "checksum": "md5:0d1f5cb4094e121fc48e403c9416d0fc"
+  },
+  "2022-03-01.parquet": {
+    "local_path": "data/raw/prc2024/2022-03-01.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/02e96126-b074-420d-b03f-e3e045e09e53",
+    "size": 551101453,
+    "checksum": "md5:4ddf3ecc331f569b43dc48889c2f523d"
+  },
+  "2022-03-02.parquet": {
+    "local_path": "data/raw/prc2024/2022-03-02.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/4f24a236-bece-40d9-a360-688d6bddd4b9",
+    "size": 568630337,
+    "checksum": "md5:42a26d2a5321e11d96b26e7795ef766f"
+  },
+  "2022-03-03.parquet": {
+    "local_path": "data/raw/prc2024/2022-03-03.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/88b07a8d-6539-4b8c-8b85-1b6fc3947974",
+    "size": 616498486,
+    "checksum": "md5:74dca7a28e5f7cf799f9550b148ea6e0"
+  },
+  "2022-03-04.parquet": {
+    "local_path": "data/raw/prc2024/2022-03-04.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/99e609f1-e875-4fc7-b28f-126f5406a8fd",
+    "size": 668977478,
+    "checksum": "md5:4956dcbbe81c674cc0a3922516c747be"
+  },
+  "2022-03-05.parquet": {
+    "local_path": "data/raw/prc2024/2022-03-05.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/040b61fd-52d5-4351-b8b3-a3f2eb1376bb",
+    "size": 706500267,
+    "checksum": "md5:47bf218ef047b2a102ffc25a57852956"
+  },
+  "2022-03-06.parquet": {
+    "local_path": "data/raw/prc2024/2022-03-06.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/a026f795-a529-45b8-b5a0-4bbce0998597",
+    "size": 719046193,
+    "checksum": "md5:4845f5356fb739379087fb0584b5b27c"
+  },
+  "2022-03-07.parquet": {
+    "local_path": "data/raw/prc2024/2022-03-07.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/d1e9648d-e1dc-4329-bb68-fa49b1c0e758",
+    "size": 627968622,
+    "checksum": "md5:7ad6ee223392dfe32eb0134601dba5d1"
+  },
+  "2022-03-08.parquet": {
+    "local_path": "data/raw/prc2024/2022-03-08.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/5644a6a1-859c-49bd-9f17-13bc7cdf7e12",
+    "size": 560170703,
+    "checksum": "md5:a638f4175cfb8af5d6c1689686b1cb0f"
+  },
+  "2022-03-09.parquet": {
+    "local_path": "data/raw/prc2024/2022-03-09.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/6a494aef-5e37-48ee-a30c-2803b7632d53",
+    "size": 556789991,
+    "checksum": "md5:5ee72943b6039366982bf06e3816bfc5"
+  },
+  "2022-03-10.parquet": {
+    "local_path": "data/raw/prc2024/2022-03-10.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/98d5999c-51c4-4800-ba8f-9a8730b32349",
+    "size": 591524359,
+    "checksum": "md5:3b650c31003bbc8375ed1b2dc3b1ef94"
+  },
+  "2022-03-11.parquet": {
+    "local_path": "data/raw/prc2024/2022-03-11.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/8d4338dc-7b75-4dd4-820e-638a8ffa4777",
+    "size": 624490606,
+    "checksum": "md5:fc7c2729a7fe86f10b690dc29bae2ea0"
+  },
+  "2022-03-12.parquet": {
+    "local_path": "data/raw/prc2024/2022-03-12.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/fbb26605-a44f-4937-a3da-ac885d1c036b",
+    "size": 567549202,
+    "checksum": "md5:c785572ee0aee1b9098ef5d653e89510"
+  },
+  "2022-03-13.parquet": {
+    "local_path": "data/raw/prc2024/2022-03-13.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/384aec1c-9279-43bf-9b2b-cb78fa1f55ad",
+    "size": 668800070,
+    "checksum": "md5:1abb3faadbf1e6523ae91ffd8d74e35c"
+  },
+  "2022-03-14.parquet": {
+    "local_path": "data/raw/prc2024/2022-03-14.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/c0d0a015-e2cd-4cc4-9376-6abf679baa11",
+    "size": 620227818,
+    "checksum": "md5:331275abb09350b155c667260de2e99c"
+  },
+  "2022-03-15.parquet": {
+    "local_path": "data/raw/prc2024/2022-03-15.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/1e00f1b3-3c2d-4f5e-887e-ebdc478b620d",
+    "size": 561610900,
+    "checksum": "md5:a17fc6c0fa441bf2a861699816a5605a"
+  },
+  "2022-03-16.parquet": {
+    "local_path": "data/raw/prc2024/2022-03-16.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/4c31aad2-93b4-4536-bd2d-cdcacea42f6a",
+    "size": 581250136,
+    "checksum": "md5:fca340bfc26e2cb03d9c007036d6c06f"
+  },
+  "2022-03-17.parquet": {
+    "local_path": "data/raw/prc2024/2022-03-17.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/fab1767a-5ac5-4ca3-a1c7-f0393572de5d",
+    "size": 659465766,
+    "checksum": "md5:a01abb80ac5fe663c95fda47b7213645"
+  },
+  "2022-03-18.parquet": {
+    "local_path": "data/raw/prc2024/2022-03-18.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/426d1a7b-2203-45e3-94c7-765a07584486",
+    "size": 679003679,
+    "checksum": "md5:3bddc8faaa376f1189bf2618e09a11c6"
+  },
+  "2022-03-19.parquet": {
+    "local_path": "data/raw/prc2024/2022-03-19.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/fb40443d-a3c0-4fe9-b6a8-6e7d24d890e3",
+    "size": 667926861,
+    "checksum": "md5:42276e2ae993f31714e3077520c6216c"
+  },
+  "2022-03-20.parquet": {
+    "local_path": "data/raw/prc2024/2022-03-20.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/b289678b-36d4-4e89-8b30-b856632dd82d",
+    "size": 730631867,
+    "checksum": "md5:5a1f7402c2d9c730268c542622fe7584"
+  },
+  "2022-03-21.parquet": {
+    "local_path": "data/raw/prc2024/2022-03-21.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/5096294f-af0e-4afe-abbe-a92b459c8a9f",
+    "size": 638249099,
+    "checksum": "md5:a43143b8bd98034ac41dcd5c203cb4c4"
+  },
+  "2022-03-22.parquet": {
+    "local_path": "data/raw/prc2024/2022-03-22.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/3f139580-28d8-4897-9576-4b25a140f461",
+    "size": 557656167,
+    "checksum": "md5:98c5540787c1f875eee53f6141cc483d"
+  },
+  "2022-03-23.parquet": {
+    "local_path": "data/raw/prc2024/2022-03-23.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/2e8c1f81-eb8d-46c6-a9ae-db06fd46ecf7",
+    "size": 586051161,
+    "checksum": "md5:5ab5835f73c1f3ff13bae06845de14b5"
+  },
+  "2022-03-24.parquet": {
+    "local_path": "data/raw/prc2024/2022-03-24.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/ae5c0e1d-06ba-45b8-97b1-792f24c54b24",
+    "size": 652629110,
+    "checksum": "md5:589341dcb3732d84e968544a3f26d27c"
+  },
+  "2022-03-25.parquet": {
+    "local_path": "data/raw/prc2024/2022-03-25.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/c7f95f42-74b2-429e-b042-92ec1555c074",
+    "size": 700770628,
+    "checksum": "md5:d5d85c0028e000cb087e34c813e5fa0d"
+  },
+  "2022-03-26.parquet": {
+    "local_path": "data/raw/prc2024/2022-03-26.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/c60e45e8-44c7-4a80-a72c-53ac8406afc0",
+    "size": 700145492,
+    "checksum": "md5:d42051b2cfbc011644851221af612afb"
+  },
+  "2022-03-27.parquet": {
+    "local_path": "data/raw/prc2024/2022-03-27.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/d58a0adc-d483-4817-8d8b-7cd962be6108",
+    "size": 816810926,
+    "checksum": "md5:f1b61b5a8eb15ed0671bda10f7b384e5"
+  },
+  "2022-03-28.parquet": {
+    "local_path": "data/raw/prc2024/2022-03-28.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/4e389251-846d-437d-87a4-ed0f943f66f1",
+    "size": 755878958,
+    "checksum": "md5:2f465c4a130dfb353f48d6dc60232476"
+  },
+  "2022-03-29.parquet": {
+    "local_path": "data/raw/prc2024/2022-03-29.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/977dc087-41db-44c3-b353-6a53bb14886c",
+    "size": 705996520,
+    "checksum": "md5:8dbff79223ad8cea85dedf5de9db5425"
+  },
+  "2022-03-30.parquet": {
+    "local_path": "data/raw/prc2024/2022-03-30.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/ed7f68ea-b4db-4ea2-8cdc-fb76927dfb7c",
+    "size": 734850474,
+    "checksum": "md5:ceacab1b3c350b82e37fbbcf1a35ff35"
+  },
+  "2022-03-31.parquet": {
+    "local_path": "data/raw/prc2024/2022-03-31.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/df8c276a-53ab-4d2f-8ebd-2a5d09df40d2",
+    "size": 572646956,
+    "checksum": "md5:e9cba70de217a36bd8abeffe595034d2"
+  },
+  "2022-04-01.parquet": {
+    "local_path": "data/raw/prc2024/2022-04-01.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/b7d11a81-bff8-46f6-b07c-9b3a6c5202c3",
+    "size": 843601687,
+    "checksum": "md5:37408fe8715b992a45bf7ec363bfabc5"
+  },
+  "2022-04-02.parquet": {
+    "local_path": "data/raw/prc2024/2022-04-02.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/25df9e74-6f11-4591-9a60-4091d0b85930",
+    "size": 843012076,
+    "checksum": "md5:e822518b30f667c526ff3c377d252e30"
+  },
+  "2022-04-03.parquet": {
+    "local_path": "data/raw/prc2024/2022-04-03.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/3de271ce-b3d6-4336-be48-d2a628ea125b",
+    "size": 888316755,
+    "checksum": "md5:092d14570f099630ce60c915327087c2"
+  },
+  "2022-04-04.parquet": {
+    "local_path": "data/raw/prc2024/2022-04-04.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/a286bf3a-7069-4b85-866b-927618ce3c9e",
+    "size": 795610869,
+    "checksum": "md5:0428908af70a39a9e5285f555babff68"
+  },
+  "2022-04-05.parquet": {
+    "local_path": "data/raw/prc2024/2022-04-05.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/01948cf5-485f-4d79-b885-8091d2094071",
+    "size": 738562923,
+    "checksum": "md5:03286393a8ea42c8a60c0354077a6b0c"
+  },
+  "2022-04-06.parquet": {
+    "local_path": "data/raw/prc2024/2022-04-06.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/d0581397-3c38-479e-827d-b7f632002b4c",
+    "size": 767798582,
+    "checksum": "md5:18fd2da36a3b3f33d018dc6c26a7078f"
+  },
+  "2022-04-07.parquet": {
+    "local_path": "data/raw/prc2024/2022-04-07.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/dba34e4d-4cfb-418b-b482-d55a82c6813d",
+    "size": 811338557,
+    "checksum": "md5:6ff09f409b250dbfaf48617a53ea6baf"
+  },
+  "2022-04-08.parquet": {
+    "local_path": "data/raw/prc2024/2022-04-08.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/188f1507-b2d4-4e65-b778-e5424407a25f",
+    "size": 883675795,
+    "checksum": "md5:c04cd0d83eafaaf7bcd2025ed50003cb"
+  },
+  "2022-04-09.parquet": {
+    "local_path": "data/raw/prc2024/2022-04-09.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/6612c72c-441a-4233-bcb5-eef78378f646",
+    "size": 888582346,
+    "checksum": "md5:71c829ed81518f096dd6037f11c255b0"
+  },
+  "2022-04-10.parquet": {
+    "local_path": "data/raw/prc2024/2022-04-10.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/44d52345-1950-4f15-845e-46d2dd303849",
+    "size": 892155057,
+    "checksum": "md5:cc1dd36fa48dc11cca9adce36fdd7a5f"
+  },
+  "2022-04-11.parquet": {
+    "local_path": "data/raw/prc2024/2022-04-11.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/4ce4f2b1-5e48-4cfd-84ba-0d58712eec2d",
+    "size": 820012721,
+    "checksum": "md5:402cc99fe8353eb8ceeadfa13b22160a"
+  },
+  "2022-04-12.parquet": {
+    "local_path": "data/raw/prc2024/2022-04-12.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/b0c90eed-a042-42fb-8c28-cd7793ecc0cd",
+    "size": 764780474,
+    "checksum": "md5:e67bbfad17388481264913da377575f0"
+  },
+  "2022-04-13.parquet": {
+    "local_path": "data/raw/prc2024/2022-04-13.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/6135b1fb-8d9f-4a3d-9dcc-8b2dd93621ee",
+    "size": 797994638,
+    "checksum": "md5:372f6dbc2bf0560948ba108583e9700f"
+  },
+  "2022-04-14.parquet": {
+    "local_path": "data/raw/prc2024/2022-04-14.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/e713a9af-0a19-4f5f-81f5-c401649cb2f6",
+    "size": 835384933,
+    "checksum": "md5:50ceae15bdecbe28d331a45711fa3349"
+  },
+  "2022-04-15.parquet": {
+    "local_path": "data/raw/prc2024/2022-04-15.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/829d0b9d-7d07-4878-a5b1-8df086442d00",
+    "size": 842311009,
+    "checksum": "md5:9eb6eaad6f9d012c67b15ae52383c982"
+  },
+  "2022-04-16.parquet": {
+    "local_path": "data/raw/prc2024/2022-04-16.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/91c779c0-7cbd-49b4-bece-a8a46aeb92d3",
+    "size": 870440298,
+    "checksum": "md5:32df2ba2d03d8bcf4753b9368f3cfeab"
+  },
+  "2022-04-17.parquet": {
+    "local_path": "data/raw/prc2024/2022-04-17.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/a5d56a04-6433-4c96-b91b-530557e2eada",
+    "size": 906198449,
+    "checksum": "md5:8e951666c463c5d028a7b7ca09827175"
+  },
+  "2022-04-18.parquet": {
+    "local_path": "data/raw/prc2024/2022-04-18.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/e85fa4a1-da73-43f7-a231-e7e71fb63d8d",
+    "size": 846655569,
+    "checksum": "md5:58b2db89dc834e6c4b89ea5922488904"
+  },
+  "2022-04-19.parquet": {
+    "local_path": "data/raw/prc2024/2022-04-19.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/4a8e2903-ac65-4637-be09-fd4013a80b96",
+    "size": 803779392,
+    "checksum": "md5:7ba7826acf37c03f5d657d5fa326292b"
+  },
+  "2022-04-20.parquet": {
+    "local_path": "data/raw/prc2024/2022-04-20.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/21c72d95-c926-4994-9ae4-64c0b22dc7d4",
+    "size": 810666549,
+    "checksum": "md5:d21de9abe59dd9793692b7a8d28368df"
+  },
+  "2022-04-21.parquet": {
+    "local_path": "data/raw/prc2024/2022-04-21.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/90e7d3ba-9989-488d-b398-6f13c5b28817",
+    "size": 845429536,
+    "checksum": "md5:3995f62b02a352fdeaf5347f54f6451b"
+  },
+  "2022-04-22.parquet": {
+    "local_path": "data/raw/prc2024/2022-04-22.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/a1e412d5-4a28-4a24-813a-f4339269f2ac",
+    "size": 871742984,
+    "checksum": "md5:dd76fd4b90109225a8469e85d7b4d7de"
+  },
+  "2022-04-23.parquet": {
+    "local_path": "data/raw/prc2024/2022-04-23.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/5c0e7dd3-fcdb-4519-a26e-b2db3c3074ae",
+    "size": 838699157,
+    "checksum": "md5:58cf1593baefd8993358294a10d82120"
+  },
+  "2022-04-24.parquet": {
+    "local_path": "data/raw/prc2024/2022-04-24.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/b2f0a268-e077-48dc-8539-9c641aef1dab",
+    "size": 900789556,
+    "checksum": "md5:9833d2a434d796debda960249be692f0"
+  },
+  "2022-04-25.parquet": {
+    "local_path": "data/raw/prc2024/2022-04-25.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/11275888-ff3b-4592-a909-91f5bbffdf27",
+    "size": 830454422,
+    "checksum": "md5:863e87ad9310579a8e131e2d591c9e8b"
+  },
+  "2022-04-26.parquet": {
+    "local_path": "data/raw/prc2024/2022-04-26.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/eded28e9-45a3-4469-be1f-e06f8b1c93df",
+    "size": 764753933,
+    "checksum": "md5:4e214cc4333138630682420f5e9022e3"
+  },
+  "2022-04-27.parquet": {
+    "local_path": "data/raw/prc2024/2022-04-27.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/9a4cb7c8-ec2e-4e2c-9d4d-347987019064",
+    "size": 719795782,
+    "checksum": "md5:dcd135a0366fccf63aeffb920cf287d8"
+  },
+  "2022-04-28.parquet": {
+    "local_path": "data/raw/prc2024/2022-04-28.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/aa67564e-91d0-437d-8416-010846c51e41",
+    "size": 787057293,
+    "checksum": "md5:cfd93e20860c6ae77a150d03b2ffb985"
+  },
+  "2022-04-29.parquet": {
+    "local_path": "data/raw/prc2024/2022-04-29.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/64e96b03-3eda-4088-a929-57493a302b36",
+    "size": 836870389,
+    "checksum": "md5:4385804d0f212bb9b4f28e8e6919bb8a"
+  },
+  "2022-04-30.parquet": {
+    "local_path": "data/raw/prc2024/2022-04-30.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/dd68b09e-d6b7-4607-8888-01b3117d1f7e",
+    "size": 571829918,
+    "checksum": "md5:2b491810bb42c3f6b9deed423884e361"
+  },
+  "2022-05-01.parquet": {
+    "local_path": "data/raw/prc2024/2022-05-01.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/3a7dcaec-bd2c-41cf-8478-6fd7421d7cfe",
+    "size": 948813898,
+    "checksum": "md5:f74f7e5b1dbe732f0f9a80263aacdd9d"
+  },
+  "2022-05-02.parquet": {
+    "local_path": "data/raw/prc2024/2022-05-02.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/83ae0def-13e4-4d35-91f5-5432cd725963",
+    "size": 898600325,
+    "checksum": "md5:f7f626e71fb23daaf65eb3b7f2232c03"
+  },
+  "2022-05-03.parquet": {
+    "local_path": "data/raw/prc2024/2022-05-03.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/6f3a1ead-7dae-42cf-a3f1-0346c375aa5f",
+    "size": 864755280,
+    "checksum": "md5:2b7994ae5eba401d61173577bc0f68d7"
+  },
+  "2022-05-04.parquet": {
+    "local_path": "data/raw/prc2024/2022-05-04.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/c70f0d6d-c735-4339-8ab2-80ad05ff5987",
+    "size": 870889950,
+    "checksum": "md5:6f090479e1695945cd6eac3a2d0b7952"
+  },
+  "2022-05-05.parquet": {
+    "local_path": "data/raw/prc2024/2022-05-05.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/e10c20ce-db1d-42e9-8698-7e71ce8938be",
+    "size": 921813705,
+    "checksum": "md5:d7668a2e18d921fda8c25be8e79977f2"
+  },
+  "2022-05-06.parquet": {
+    "local_path": "data/raw/prc2024/2022-05-06.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/9494fe98-2e3e-470e-8a16-71402a1bd1b0",
+    "size": 948410931,
+    "checksum": "md5:6c0dcb3533c417aebd59044f7defa5e4"
+  },
+  "2022-05-07.parquet": {
+    "local_path": "data/raw/prc2024/2022-05-07.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/f0554762-4e96-4c97-a57e-fc2f8c8b2d19",
+    "size": 968935798,
+    "checksum": "md5:812804f85138109589582568e161fee1"
+  },
+  "2022-05-08.parquet": {
+    "local_path": "data/raw/prc2024/2022-05-08.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/566e096a-7918-4df7-9f59-cd84b2f1131c",
+    "size": 1012015736,
+    "checksum": "md5:05e7c77329da3aec716fafcd5d87cd98"
+  },
+  "2022-05-09.parquet": {
+    "local_path": "data/raw/prc2024/2022-05-09.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/1a180613-a9b9-4d32-be5d-71fee0031884",
+    "size": 936746703,
+    "checksum": "md5:d7f796d9c68258598796578b04d2f83e"
+  },
+  "2022-05-10.parquet": {
+    "local_path": "data/raw/prc2024/2022-05-10.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/612b03c4-9de3-48f0-a826-6e3409e39631",
+    "size": 892578730,
+    "checksum": "md5:fbbc7ac4cdc8184d12f7c79b736f4b22"
+  },
+  "2022-05-11.parquet": {
+    "local_path": "data/raw/prc2024/2022-05-11.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/a9631677-58d0-4e70-aaf4-a3d76eb6c533",
+    "size": 896355433,
+    "checksum": "md5:e3ae18aaa233d6fc2bbc27cc91424fbb"
+  },
+  "2022-05-12.parquet": {
+    "local_path": "data/raw/prc2024/2022-05-12.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/765c9be0-e12e-4128-afe1-fbc541c469c2",
+    "size": 941384034,
+    "checksum": "md5:8aee3b7b4cbe1f662470664d8e7d0490"
+  },
+  "2022-05-13.parquet": {
+    "local_path": "data/raw/prc2024/2022-05-13.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/b8cfea99-dd8d-4f01-a460-62db11e807dd",
+    "size": 947651277,
+    "checksum": "md5:09325ea1154fa640a9336aea48e9e562"
+  },
+  "2022-05-14.parquet": {
+    "local_path": "data/raw/prc2024/2022-05-14.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/991fb341-2425-42e1-ab59-739ea15b1fc9",
+    "size": 969504807,
+    "checksum": "md5:3e7bf5cdaf539bf87267481dc7a604c3"
+  },
+  "2022-05-15.parquet": {
+    "local_path": "data/raw/prc2024/2022-05-15.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/fe92c55b-7902-460e-b1e3-1221798d0be2",
+    "size": 990018541,
+    "checksum": "md5:b6444e458352862410ba0101f14c2f46"
+  },
+  "2022-05-16.parquet": {
+    "local_path": "data/raw/prc2024/2022-05-16.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/4f99a54e-39a4-489e-baf8-74d1ecf8a28f",
+    "size": 941511611,
+    "checksum": "md5:f4ed35558c23f96378e8931220a4795f"
+  },
+  "2022-05-17.parquet": {
+    "local_path": "data/raw/prc2024/2022-05-17.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/373a34e7-f142-4627-ac2d-5b438efd1151",
+    "size": 891889933,
+    "checksum": "md5:79de1f97da1f1a8786c8420881307c09"
+  },
+  "2022-05-18.parquet": {
+    "local_path": "data/raw/prc2024/2022-05-18.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/d63c26c7-aac2-4892-b354-5622f403e173",
+    "size": 914525041,
+    "checksum": "md5:5d2529f08007f2947d5681c1ead5baf7"
+  },
+  "2022-05-19.parquet": {
+    "local_path": "data/raw/prc2024/2022-05-19.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/4ce3bdf4-7cb6-4434-a67b-1a644d2956be",
+    "size": 965140994,
+    "checksum": "md5:61fe1ea79beece282ad98a2891c89139"
+  },
+  "2022-05-20.parquet": {
+    "local_path": "data/raw/prc2024/2022-05-20.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/22acb703-f7a7-4e68-8bd9-b1f2c99dd027",
+    "size": 984113961,
+    "checksum": "md5:67b15cbd469fcae0699ba645dd707f7e"
+  },
+  "2022-05-21.parquet": {
+    "local_path": "data/raw/prc2024/2022-05-21.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/b4260a79-9cdb-4284-8bc6-88d48b907d44",
+    "size": 1009880395,
+    "checksum": "md5:4aff940402f143217e31d75fcaee2697"
+  },
+  "2022-05-22.parquet": {
+    "local_path": "data/raw/prc2024/2022-05-22.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/aa61e07c-70a8-4c05-95c4-fbcdadad5df2",
+    "size": 1033277438,
+    "checksum": "md5:736dbcd701656598fc47b713662a54cb"
+  },
+  "2022-05-23.parquet": {
+    "local_path": "data/raw/prc2024/2022-05-23.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/1a77a8fd-1c89-4b20-9aa0-46e640552adc",
+    "size": 966611621,
+    "checksum": "md5:a2d980eb54c4de9355057c22c9afd375"
+  },
+  "2022-05-24.parquet": {
+    "local_path": "data/raw/prc2024/2022-05-24.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/f4c59db2-7860-495a-bfe1-e1f67a16a876",
+    "size": 933517796,
+    "checksum": "md5:048febb5b153ee153262750d480b549b"
+  },
+  "2022-05-25.parquet": {
+    "local_path": "data/raw/prc2024/2022-05-25.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/e5717d68-f5e0-4e26-bd22-7c76674704d6",
+    "size": 961444326,
+    "checksum": "md5:9c048635705d4184d6f6e623cff85554"
+  },
+  "2022-05-26.parquet": {
+    "local_path": "data/raw/prc2024/2022-05-26.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/e782c5ec-622b-431e-8b43-48cb34439568",
+    "size": 961830964,
+    "checksum": "md5:146f6a41c9994a3984d844353f3d05e5"
+  },
+  "2022-05-27.parquet": {
+    "local_path": "data/raw/prc2024/2022-05-27.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/7000a442-a113-400b-8a35-2722ab93f9ec",
+    "size": 959689994,
+    "checksum": "md5:25b2a8500cc9a693d55f1896eb3844b1"
+  },
+  "2022-05-28.parquet": {
+    "local_path": "data/raw/prc2024/2022-05-28.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/d602e196-007f-4369-9e11-6330d131264c",
+    "size": 1012102607,
+    "checksum": "md5:3eccf8f8ac87a60749df4d0b91b6c74c"
+  },
+  "2022-05-29.parquet": {
+    "local_path": "data/raw/prc2024/2022-05-29.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/ff330c6b-1b27-4994-876c-1e4f5cd9850d",
+    "size": 1053435399,
+    "checksum": "md5:612a903c1dea33cf2fbdc348c8e2ca11"
+  },
+  "2022-05-30.parquet": {
+    "local_path": "data/raw/prc2024/2022-05-30.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/ba105c64-fe93-4312-b9f2-5806b41e5614",
+    "size": 839386094,
+    "checksum": "md5:439a55600f9c0bd13643e6ca01f800d9"
+  },
+  "2022-05-31.parquet": {
+    "local_path": "data/raw/prc2024/2022-05-31.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/8b43a449-51a6-4b01-8da4-e4aa1ad0b3be",
+    "size": 629974917,
+    "checksum": "md5:4b5ab12ee3e2220480886b91e825f29b"
+  },
+  "2022-06-01.parquet": {
+    "local_path": "data/raw/prc2024/2022-06-01.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/2a97e51f-dbbe-4844-90fc-bf24ddd2de78",
+    "size": 972465448,
+    "checksum": "md5:3a1f8eb201f39ad89eed5cf75eb4f888"
+  },
+  "2022-06-02.parquet": {
+    "local_path": "data/raw/prc2024/2022-06-02.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/871872f9-4923-430e-a3e0-ce1b9d20065e",
+    "size": 997356262,
+    "checksum": "md5:a002bd86827837c13eb64a3577e4338a"
+  },
+  "2022-06-03.parquet": {
+    "local_path": "data/raw/prc2024/2022-06-03.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/5a94bd69-72ca-46cc-88b9-c0840aecd9fb",
+    "size": 1044543290,
+    "checksum": "md5:78eda27843446cd37009419e412b9f22"
+  },
+  "2022-06-04.parquet": {
+    "local_path": "data/raw/prc2024/2022-06-04.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/572b994c-9d9f-4179-a23f-1296185eb41a",
+    "size": 1065532338,
+    "checksum": "md5:6b4be8e827293b1e08b8a503eb565e76"
+  },
+  "2022-06-05.parquet": {
+    "local_path": "data/raw/prc2024/2022-06-05.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/9c71d1e5-8493-46ba-8099-8d51d869ebab",
+    "size": 1055300208,
+    "checksum": "md5:585c045934ce14eeaafba6d46123b0d9"
+  },
+  "2022-06-06.parquet": {
+    "local_path": "data/raw/prc2024/2022-06-06.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/cb22a919-3e35-4338-9242-d91ed6875899",
+    "size": 995259865,
+    "checksum": "md5:364dd6587cb1cd5a5d6236043006a1ac"
+  },
+  "2022-06-07.parquet": {
+    "local_path": "data/raw/prc2024/2022-06-07.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/17d30933-e51d-49a9-a158-c64f97d29b0b",
+    "size": 985586279,
+    "checksum": "md5:713843e01ade4877bdbeeee1506f0b50"
+  },
+  "2022-06-08.parquet": {
+    "local_path": "data/raw/prc2024/2022-06-08.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/1bfeb459-8dd5-4931-a995-bc6bc064d7b3",
+    "size": 963931843,
+    "checksum": "md5:d22295eb4b1197eb0050211d962d91a2"
+  },
+  "2022-06-09.parquet": {
+    "local_path": "data/raw/prc2024/2022-06-09.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/58523cd9-29fc-426e-833d-1df432dd3c49",
+    "size": 1002388277,
+    "checksum": "md5:a5fa2dcb05c5bfd9aba124259a66dd03"
+  },
+  "2022-06-10.parquet": {
+    "local_path": "data/raw/prc2024/2022-06-10.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/116c04a3-04f2-401e-939f-a7df7b91104e",
+    "size": 1043809177,
+    "checksum": "md5:681590e09da75b4daa24ec5c9bfb7d07"
+  },
+  "2022-06-11.parquet": {
+    "local_path": "data/raw/prc2024/2022-06-11.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/72795cef-bb78-4501-bcdc-823370a0f729",
+    "size": 1047082779,
+    "checksum": "md5:e5d0f2116ea50438cb9dcc26a569f1d3"
+  },
+  "2022-06-12.parquet": {
+    "local_path": "data/raw/prc2024/2022-06-12.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/5c85da3c-4495-4a00-9fa8-399765a22343",
+    "size": 1061983290,
+    "checksum": "md5:ee6d421f2b2bac6285446d9bc88b9fc9"
+  },
+  "2022-06-13.parquet": {
+    "local_path": "data/raw/prc2024/2022-06-13.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/83e3185f-ec43-49ce-ae65-6f5769e6b70c",
+    "size": 1014153462,
+    "checksum": "md5:ed1e60227c0a1a0365b3564815f5c9b7"
+  },
+  "2022-06-14.parquet": {
+    "local_path": "data/raw/prc2024/2022-06-14.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/b224e92f-d053-4d22-b483-61b9b808fa97",
+    "size": 980019545,
+    "checksum": "md5:eb4aef9452fd488c2126b1abff3f11f1"
+  },
+  "2022-06-15.parquet": {
+    "local_path": "data/raw/prc2024/2022-06-15.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/24991b22-24b5-452d-a34e-f07e2b451f49",
+    "size": 978286030,
+    "checksum": "md5:cdb8bc89863547f44ebd48934f7ac3f5"
+  },
+  "2022-06-16.parquet": {
+    "local_path": "data/raw/prc2024/2022-06-16.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/f8f9f8c9-ef66-4280-924a-a46e449fb4e3",
+    "size": 997162017,
+    "checksum": "md5:ead9abe0f6367a3e9e2c22c2e1cd77e8"
+  },
+  "2022-06-17.parquet": {
+    "local_path": "data/raw/prc2024/2022-06-17.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/2b5f5495-ea38-4a67-8f9d-cecd0d48f452",
+    "size": 1021585717,
+    "checksum": "md5:66407d13dcce865ceed70bcd8bd6265d"
+  },
+  "2022-06-18.parquet": {
+    "local_path": "data/raw/prc2024/2022-06-18.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/877fbc83-9303-471e-94da-edd8e6026ec1",
+    "size": 1044011919,
+    "checksum": "md5:8a5220118ca0dd0cc366867cc97d40c1"
+  },
+  "2022-06-19.parquet": {
+    "local_path": "data/raw/prc2024/2022-06-19.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/9d9a7ffe-ce61-446d-b041-7ef6bdcd76e2",
+    "size": 1043600873,
+    "checksum": "md5:83458afafb414c8288119a42f141f594"
+  },
+  "2022-06-20.parquet": {
+    "local_path": "data/raw/prc2024/2022-06-20.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/82185686-897f-4201-afec-d3b348f82c7c",
+    "size": 965870608,
+    "checksum": "md5:1c4d8e36f50cce0e6ad5943dacbd33f3"
+  },
+  "2022-06-21.parquet": {
+    "local_path": "data/raw/prc2024/2022-06-21.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/734bc87c-da07-42ab-9a22-5ecd55d82eee",
+    "size": 996137310,
+    "checksum": "md5:3033d2f36cbb22a6559662367f9a347c"
+  },
+  "2022-06-22.parquet": {
+    "local_path": "data/raw/prc2024/2022-06-22.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/7c061e41-8190-40d7-b993-1c55732f017e",
+    "size": 1031482649,
+    "checksum": "md5:fa6106cf3cc8714c1033f6e49fd20977"
+  },
+  "2022-06-23.parquet": {
+    "local_path": "data/raw/prc2024/2022-06-23.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/871e9241-4b41-4f3f-bae1-f5b1943fd211",
+    "size": 1025155688,
+    "checksum": "md5:0a6fbb2072c9c21637b65d315c4a5d30"
+  },
+  "2022-06-24.parquet": {
+    "local_path": "data/raw/prc2024/2022-06-24.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/f2e856df-dc52-4428-9468-56ef02935096",
+    "size": 1049850382,
+    "checksum": "md5:5a244c6210fc1a97a26fb281a4dab4a6"
+  },
+  "2022-06-25.parquet": {
+    "local_path": "data/raw/prc2024/2022-06-25.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/987b9b75-96ac-4f71-9cdd-c3f64faf270f",
+    "size": 1060296297,
+    "checksum": "md5:bf68779bac45ce62315704478913e9e1"
+  },
+  "2022-06-26.parquet": {
+    "local_path": "data/raw/prc2024/2022-06-26.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/00e9be9e-053a-4b97-a073-7a8c8223652d",
+    "size": 1114172494,
+    "checksum": "md5:ef7f29aaf7e7cd859ad2658985758c94"
+  },
+  "2022-06-27.parquet": {
+    "local_path": "data/raw/prc2024/2022-06-27.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/b2608340-5c8f-495e-9815-1d3933516aee",
+    "size": 1073065640,
+    "checksum": "md5:b5c379203a11e18ff62fa015087b3a88"
+  },
+  "2022-06-28.parquet": {
+    "local_path": "data/raw/prc2024/2022-06-28.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/d83e5a45-cd02-48c6-a2b6-2f940509c2e5",
+    "size": 900376648,
+    "checksum": "md5:b09806e71c07319afa3b34a95e0ee0ba"
+  },
+  "2022-06-29.parquet": {
+    "local_path": "data/raw/prc2024/2022-06-29.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/c3395996-3b95-4c9e-a996-e808eb151b40",
+    "size": 897478253,
+    "checksum": "md5:74d7e1da076d28e7e30e2ba242ddcf4b"
+  },
+  "2022-06-30.parquet": {
+    "local_path": "data/raw/prc2024/2022-06-30.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/a8bb4251-4f64-4290-a0b5-780939b90d4c",
+    "size": 715084904,
+    "checksum": "md5:c3beec4b60887d777166ab7265a5bef8"
+  },
+  "2022-07-01.parquet": {
+    "local_path": "data/raw/prc2024/2022-07-01.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/723a31eb-1d02-401c-a777-eee6366bc38f",
+    "size": 1036606502,
+    "checksum": "md5:b68f0301bdaae624178d728e62587239"
+  },
+  "2022-07-02.parquet": {
+    "local_path": "data/raw/prc2024/2022-07-02.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/9f40353a-ae46-4574-a70e-0975fa323763",
+    "size": 1050644747,
+    "checksum": "md5:59f99dd94cd3db400e6fc5396916e660"
+  },
+  "2022-07-03.parquet": {
+    "local_path": "data/raw/prc2024/2022-07-03.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/5db80dc2-8b48-4cf3-9848-167ec6af1b52",
+    "size": 1051613296,
+    "checksum": "md5:16ff14c4103ae5f67e4c60df70bfbab3"
+  },
+  "2022-07-04.parquet": {
+    "local_path": "data/raw/prc2024/2022-07-04.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/e1079f6a-cfa4-4558-99d4-b5f76e41e117",
+    "size": 993485778,
+    "checksum": "md5:e14724ce4a254f47b60b7a0154c0cd74"
+  },
+  "2022-07-05.parquet": {
+    "local_path": "data/raw/prc2024/2022-07-05.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/08188b0c-4094-4c38-87f6-4ecd04da7408",
+    "size": 916520381,
+    "checksum": "md5:5efc40d2c655eef66d2888c57fe634d6"
+  },
+  "2022-07-06.parquet": {
+    "local_path": "data/raw/prc2024/2022-07-06.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/7323a569-5dbf-46bc-ba8d-213b846bc059",
+    "size": 935918895,
+    "checksum": "md5:12898988f9fce8b662a869ab1584e640"
+  },
+  "2022-07-07.parquet": {
+    "local_path": "data/raw/prc2024/2022-07-07.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/6b663f3e-75d5-4a7b-9189-f1efc5853d20",
+    "size": 959395772,
+    "checksum": "md5:77991b020d762887e0feaf88414072db"
+  },
+  "2022-07-08.parquet": {
+    "local_path": "data/raw/prc2024/2022-07-08.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/fa79e656-7e61-4501-924a-82a837f193bb",
+    "size": 971945074,
+    "checksum": "md5:5b0e5f191b74decf4e582c55ccf09ae9"
+  },
+  "2022-07-09.parquet": {
+    "local_path": "data/raw/prc2024/2022-07-09.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/d8f843b9-5cda-4fa2-8404-1bc5187c5553",
+    "size": 1005101971,
+    "checksum": "md5:7033685e5bab91d81bafecec98c5b99e"
+  },
+  "2022-07-10.parquet": {
+    "local_path": "data/raw/prc2024/2022-07-10.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/3d1be768-e5ca-4f34-9029-37d99f0d6d65",
+    "size": 976101767,
+    "checksum": "md5:5af3b90114e97bb3f88e8c0d38f0dcf4"
+  },
+  "2022-07-11.parquet": {
+    "local_path": "data/raw/prc2024/2022-07-11.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/e38088d6-673b-4558-99d0-8280e95d7c70",
+    "size": 920399803,
+    "checksum": "md5:fa500f3e3ac6a44769b6477f4c890282"
+  },
+  "2022-07-12.parquet": {
+    "local_path": "data/raw/prc2024/2022-07-12.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/2bd2058f-741c-4d01-a619-b516e5a2c9aa",
+    "size": 882498512,
+    "checksum": "md5:8d9a3c34eca01086f09ce555ecb72b62"
+  },
+  "2022-07-13.parquet": {
+    "local_path": "data/raw/prc2024/2022-07-13.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/f889ca4a-07ee-4113-9efd-ff81191a21bf",
+    "size": 912371848,
+    "checksum": "md5:30242622fef63e4cf6e5aa9eee0dcd49"
+  },
+  "2022-07-14.parquet": {
+    "local_path": "data/raw/prc2024/2022-07-14.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/7e742f00-1c75-4415-809e-0f7f81338a2c",
+    "size": 944474458,
+    "checksum": "md5:91b858b17787ff6c04899417978a42a2"
+  },
+  "2022-07-15.parquet": {
+    "local_path": "data/raw/prc2024/2022-07-15.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/ec3103f4-f0d2-482c-81a1-34f2fd2e8fdd",
+    "size": 980728440,
+    "checksum": "md5:b33a619c556b787fc8ef42f56f4c852e"
+  },
+  "2022-07-16.parquet": {
+    "local_path": "data/raw/prc2024/2022-07-16.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/20ee786d-26d5-43ae-a0e0-84820e190a42",
+    "size": 987499403,
+    "checksum": "md5:5c77fc3b379f46245e8fbcb7efb3e4d2"
+  },
+  "2022-07-17.parquet": {
+    "local_path": "data/raw/prc2024/2022-07-17.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/d551ef5f-1d88-4f45-9dd0-3e41849245d1",
+    "size": 991717293,
+    "checksum": "md5:46a84fb3af4c4249fed9dfe89b108701"
+  },
+  "2022-07-18.parquet": {
+    "local_path": "data/raw/prc2024/2022-07-18.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/06fa410e-b053-4159-9505-9763ba0aea14",
+    "size": 946047557,
+    "checksum": "md5:067f1c319f73bec7d3c180f4a4c447bf"
+  },
+  "2022-07-19.parquet": {
+    "local_path": "data/raw/prc2024/2022-07-19.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/1cb6fb2c-0c43-4e93-8b02-bb18704aa009",
+    "size": 955576774,
+    "checksum": "md5:52c78ce91bc3b17282a5cc04cda20821"
+  },
+  "2022-07-20.parquet": {
+    "local_path": "data/raw/prc2024/2022-07-20.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/da482954-3ccf-4d87-b01a-fb61ae3ad35b",
+    "size": 986122461,
+    "checksum": "md5:640b16b592b21f98e1da1a0c910a2bc3"
+  },
+  "2022-07-21.parquet": {
+    "local_path": "data/raw/prc2024/2022-07-21.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/adef9d93-6766-44f9-9671-25c9e1b69e74",
+    "size": 1009574027,
+    "checksum": "md5:3f0b539df79f3818251be677e82f16b0"
+  },
+  "2022-07-22.parquet": {
+    "local_path": "data/raw/prc2024/2022-07-22.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/d4b9e3ae-f1bb-4a08-81f9-1f27ad4306fc",
+    "size": 1042067231,
+    "checksum": "md5:4eaaa1eed913dace175a63ca9fbf6d5b"
+  },
+  "2022-07-23.parquet": {
+    "local_path": "data/raw/prc2024/2022-07-23.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/56385429-05d3-4276-9319-e39ccd875b9a",
+    "size": 1079271272,
+    "checksum": "md5:d1f0141f7f7321b53e7622d900e35ab2"
+  },
+  "2022-07-24.parquet": {
+    "local_path": "data/raw/prc2024/2022-07-24.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/9016e0cb-5fca-4621-9c35-dabf83e66d7b",
+    "size": 1077363030,
+    "checksum": "md5:878323e50ccf5beb9baf55f4dfd9f042"
+  },
+  "2022-07-25.parquet": {
+    "local_path": "data/raw/prc2024/2022-07-25.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/65fec6f7-48e4-4f16-88d5-d7d568d5e586",
+    "size": 1020149427,
+    "checksum": "md5:b2b144b7aa8e65578316686bf4915260"
+  },
+  "2022-07-26.parquet": {
+    "local_path": "data/raw/prc2024/2022-07-26.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/9f15ede2-57e7-4202-b518-4ad050b9faba",
+    "size": 996587002,
+    "checksum": "md5:7bc2fb0a548450d719724c17637d7013"
+  },
+  "2022-07-27.parquet": {
+    "local_path": "data/raw/prc2024/2022-07-27.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/3baec8b5-460c-4ac4-8fb6-d55412fdcaf3",
+    "size": 1016828191,
+    "checksum": "md5:22c75ae234171cae5b435736b811265f"
+  },
+  "2022-07-28.parquet": {
+    "local_path": "data/raw/prc2024/2022-07-28.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/7e449d8c-5fa1-4a44-aeb5-208761895522",
+    "size": 1038174863,
+    "checksum": "md5:db16b5c29eef83e9f317fdc456c878f9"
+  },
+  "2022-07-29.parquet": {
+    "local_path": "data/raw/prc2024/2022-07-29.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/d70e879b-3587-43fa-b628-2ee98eedbee9",
+    "size": 1072980122,
+    "checksum": "md5:cadc99d92f15c226ac93b7f257a73fbc"
+  },
+  "2022-07-30.parquet": {
+    "local_path": "data/raw/prc2024/2022-07-30.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/909bb016-4de0-4126-bd97-8ef0bd8c602d",
+    "size": 908148994,
+    "checksum": "md5:b162dff47b46b2b565e9b0e1e9a5702a"
+  },
+  "2022-07-31.parquet": {
+    "local_path": "data/raw/prc2024/2022-07-31.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/b0ad09f4-09dc-4306-ba96-4689d33cb4b2",
+    "size": 709435445,
+    "checksum": "md5:791b70ac10d5cf6236e50292c92edfde"
+  },
+  "2022-08-01.parquet": {
+    "local_path": "data/raw/prc2024/2022-08-01.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/16f1c9ff-07a9-49f5-8cc7-3c2e2ab2e66f",
+    "size": 1085527436,
+    "checksum": "md5:f1f9c76cd965af22b9ebe0250068a38b"
+  },
+  "2022-08-02.parquet": {
+    "local_path": "data/raw/prc2024/2022-08-02.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/ac337f3a-8c75-4826-96f5-655c33c62fbf",
+    "size": 1085056047,
+    "checksum": "md5:865f284f6ed632e5a153049372cbae5c"
+  },
+  "2022-08-03.parquet": {
+    "local_path": "data/raw/prc2024/2022-08-03.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/e03bc168-c3a5-4248-88ac-56d0b1fe7703",
+    "size": 1079145743,
+    "checksum": "md5:52dfdf6131bb129524c3bace2cc63628"
+  },
+  "2022-08-04.parquet": {
+    "local_path": "data/raw/prc2024/2022-08-04.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/abb539b5-6ad6-43c5-8100-58e9477339d6",
+    "size": 1105595288,
+    "checksum": "md5:fdafc3fe09f0389f4b690c8fb8d3b6ff"
+  },
+  "2022-08-05.parquet": {
+    "local_path": "data/raw/prc2024/2022-08-05.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/2bb5e147-adbf-4232-8130-a07cda9afb82",
+    "size": 1130328552,
+    "checksum": "md5:7660e12f0c8b3d7165f5a2a1e122db13"
+  },
+  "2022-08-06.parquet": {
+    "local_path": "data/raw/prc2024/2022-08-06.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/83ff5e26-3acf-4a26-acb8-d719083012b2",
+    "size": 1163795854,
+    "checksum": "md5:a2c11f352b9fe34a93e637d255fb1c80"
+  },
+  "2022-08-07.parquet": {
+    "local_path": "data/raw/prc2024/2022-08-07.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/b307f945-9e0a-4b07-aa45-9c8de6c967dd",
+    "size": 1149328330,
+    "checksum": "md5:bc04b83bae707072b9c846a8bb917703"
+  },
+  "2022-08-08.parquet": {
+    "local_path": "data/raw/prc2024/2022-08-08.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/1013a81f-2083-41b4-8fab-3044def11400",
+    "size": 1099807884,
+    "checksum": "md5:9cf7df85f82ec9132ecf4741f71474fe"
+  },
+  "2022-08-09.parquet": {
+    "local_path": "data/raw/prc2024/2022-08-09.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/60479820-f066-45bf-bf1f-01c8322d34d1",
+    "size": 1058416944,
+    "checksum": "md5:08a9e46fe5139aeb0f14d11fdd5eed65"
+  },
+  "2022-08-10.parquet": {
+    "local_path": "data/raw/prc2024/2022-08-10.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/794c5c7c-0b0e-4924-a4c2-b121e3f2cad4",
+    "size": 1077540911,
+    "checksum": "md5:623b5f5daec4d4ee8129d2265886c3d1"
+  },
+  "2022-08-11.parquet": {
+    "local_path": "data/raw/prc2024/2022-08-11.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/72a9c186-99ec-4677-81cf-96736a950b74",
+    "size": 1082697367,
+    "checksum": "md5:4864e96ad7248e450a0a1362a7dcc04b"
+  },
+  "2022-08-12.parquet": {
+    "local_path": "data/raw/prc2024/2022-08-12.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/76f1d90d-4e3c-4034-8bda-cc6b39b41eac",
+    "size": 1103536192,
+    "checksum": "md5:6f0fd3df548440aa667a96cd79a89463"
+  },
+  "2022-08-13.parquet": {
+    "local_path": "data/raw/prc2024/2022-08-13.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/1e9300d3-1e4a-4d44-bcdf-e1b247516bf4",
+    "size": 1159020200,
+    "checksum": "md5:2272b3fb18957270b018bd594674a46a"
+  },
+  "2022-08-14.parquet": {
+    "local_path": "data/raw/prc2024/2022-08-14.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/effa1480-c16b-4fa0-b67b-b619927936a8",
+    "size": 1138945287,
+    "checksum": "md5:234f88ed38cce6ac14b45989dd25e3b7"
+  },
+  "2022-08-15.parquet": {
+    "local_path": "data/raw/prc2024/2022-08-15.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/f9a0c18f-456f-495c-b9bc-985eb1e170c6",
+    "size": 1079727934,
+    "checksum": "md5:5ec1adca687a637849e9f15a252414af"
+  },
+  "2022-08-16.parquet": {
+    "local_path": "data/raw/prc2024/2022-08-16.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/5f315eb7-b92a-449c-8f43-2333dc314020",
+    "size": 1042812659,
+    "checksum": "md5:99342c8882a1dfdf8849a639bdfd3544"
+  },
+  "2022-08-17.parquet": {
+    "local_path": "data/raw/prc2024/2022-08-17.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/1d05c4ac-4abb-4078-af7f-8297c9012eef",
+    "size": 1051875779,
+    "checksum": "md5:eaa6d5efe0cff2d66a67817a9a9f9b54"
+  },
+  "2022-08-18.parquet": {
+    "local_path": "data/raw/prc2024/2022-08-18.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/40906779-4bc8-432c-8362-b8dd869ac86e",
+    "size": 1084420324,
+    "checksum": "md5:7d40cc56f576b83ba6e7aaf0340fdd91"
+  },
+  "2022-08-19.parquet": {
+    "local_path": "data/raw/prc2024/2022-08-19.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/1160496b-09c1-46e8-a928-595ae00a7313",
+    "size": 1094802499,
+    "checksum": "md5:461491ff2d6e869db528b5a70b235051"
+  },
+  "2022-08-20.parquet": {
+    "local_path": "data/raw/prc2024/2022-08-20.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/abfd355b-8c00-40bc-aea6-37553d0c7044",
+    "size": 1141217572,
+    "checksum": "md5:2af262d82b172c3413a5e368b5975a31"
+  },
+  "2022-08-21.parquet": {
+    "local_path": "data/raw/prc2024/2022-08-21.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/275b5ab0-2f89-45f0-9db1-b003dfe5e7cb",
+    "size": 1119340573,
+    "checksum": "md5:9e4b2fac6302fbadf5d1b64c7c90c229"
+  },
+  "2022-08-22.parquet": {
+    "local_path": "data/raw/prc2024/2022-08-22.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/584e386d-37a7-4add-b35f-0ae1551d9c0c",
+    "size": 1058863928,
+    "checksum": "md5:da52460f49f4534940bfe91769fbc106"
+  },
+  "2022-08-23.parquet": {
+    "local_path": "data/raw/prc2024/2022-08-23.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/8fd460cb-1b39-4fac-a8e7-43c62d5a4129",
+    "size": 1024116910,
+    "checksum": "md5:cc12c750a7749344d58106eac2f2eabe"
+  },
+  "2022-08-24.parquet": {
+    "local_path": "data/raw/prc2024/2022-08-24.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/04cebb45-d35e-4bd4-bf16-a3a75584e4b8",
+    "size": 1028303776,
+    "checksum": "md5:aaac535d68e850033808b43cfa71486b"
+  },
+  "2022-08-25.parquet": {
+    "local_path": "data/raw/prc2024/2022-08-25.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/98c81121-f443-4a41-8e2d-c5d09df5563c",
+    "size": 1064618443,
+    "checksum": "md5:ce94a4ee5280eb705eeed61817d609c3"
+  },
+  "2022-08-26.parquet": {
+    "local_path": "data/raw/prc2024/2022-08-26.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/f8d18c33-c437-4e2a-be29-2e1b781db0aa",
+    "size": 1088443734,
+    "checksum": "md5:1aaa7297ecb719a504bf0ed29cab26e4"
+  },
+  "2022-08-27.parquet": {
+    "local_path": "data/raw/prc2024/2022-08-27.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/8c14edda-ef34-4608-9450-b12861d549fc",
+    "size": 1126609770,
+    "checksum": "md5:026762e31f7270a2b30cf9041a73a20b"
+  },
+  "2022-08-28.parquet": {
+    "local_path": "data/raw/prc2024/2022-08-28.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/fe0fd133-49dd-46f4-aa10-20be3e6715f9",
+    "size": 1125222423,
+    "checksum": "md5:4b03b192a11dd73968d19ebde9c9aede"
+  },
+  "2022-08-29.parquet": {
+    "local_path": "data/raw/prc2024/2022-08-29.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/103ee745-4b55-4693-a412-12f403c68023",
+    "size": 1053392557,
+    "checksum": "md5:6798e1a42b1a7724ffe9326bfd328972"
+  },
+  "2022-08-30.parquet": {
+    "local_path": "data/raw/prc2024/2022-08-30.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/9c9adc9f-30de-4f82-bade-d96ef7c2a183",
+    "size": 900942714,
+    "checksum": "md5:e226ee88ee797c042202c0657f40e577"
+  },
+  "2022-08-31.parquet": {
+    "local_path": "data/raw/prc2024/2022-08-31.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/1d89721c-617f-4715-bc98-a91d77980bc4",
+    "size": 691310741,
+    "checksum": "md5:00197df1d54712e76872c854a6d5d028"
+  },
+  "2022-09-01.parquet": {
+    "local_path": "data/raw/prc2024/2022-09-01.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/196aa252-b35e-491b-a243-27f16cd5ee5e",
+    "size": 1108072030,
+    "checksum": "md5:251e8b5adf5f3a63a3feed7cc135aa06"
+  },
+  "2022-09-02.parquet": {
+    "local_path": "data/raw/prc2024/2022-09-02.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/c8cc2da5-b1ad-4667-8ea6-18b0dfe732e7",
+    "size": 1110512267,
+    "checksum": "md5:c59854ebdf5272275502d476830a5f2c"
+  },
+  "2022-09-03.parquet": {
+    "local_path": "data/raw/prc2024/2022-09-03.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/53dc4ae9-4922-46cd-be25-921b8ce384ec",
+    "size": 1145551007,
+    "checksum": "md5:0e52ac87d2f0377b6544a81e5a9b3ba0"
+  },
+  "2022-09-04.parquet": {
+    "local_path": "data/raw/prc2024/2022-09-04.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/e097fca6-139f-41d4-88af-216083e2e51c",
+    "size": 1138828347,
+    "checksum": "md5:c945f7c90459504e95308ebfc458a73c"
+  },
+  "2022-09-05.parquet": {
+    "local_path": "data/raw/prc2024/2022-09-05.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/faa82d75-5387-4ad4-9580-167e91c1ae9f",
+    "size": 1079627995,
+    "checksum": "md5:b53fc6d0e9ebafad226fcbfaa21600fd"
+  },
+  "2022-09-06.parquet": {
+    "local_path": "data/raw/prc2024/2022-09-06.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/c506f07b-e38f-48f5-9a07-ec834f9a88a2",
+    "size": 1034778025,
+    "checksum": "md5:24da91b18095cc5307453db68800a5e2"
+  },
+  "2022-09-07.parquet": {
+    "local_path": "data/raw/prc2024/2022-09-07.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/a7a2c000-17fa-4335-8d0b-b34c8bef7568",
+    "size": 1080700896,
+    "checksum": "md5:2a57d547dcffc55c2d0da0c87ac730c8"
+  },
+  "2022-09-08.parquet": {
+    "local_path": "data/raw/prc2024/2022-09-08.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/8395d25e-523a-4f30-a19c-5f4ed43f3bce",
+    "size": 1088566607,
+    "checksum": "md5:3fcc63a0d3656719b14b091f0d52c55e"
+  },
+  "2022-09-09.parquet": {
+    "local_path": "data/raw/prc2024/2022-09-09.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/cc01c692-d884-490f-9767-723bc32fbcf4",
+    "size": 1131759564,
+    "checksum": "md5:25e384d9edad7278868fbf3d02da708d"
+  },
+  "2022-09-10.parquet": {
+    "local_path": "data/raw/prc2024/2022-09-10.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/3b12f662-e451-40e4-a85a-c2e132bd3414",
+    "size": 1117499471,
+    "checksum": "md5:dcbee5ec3fb8401bd5e2880b52ae37de"
+  },
+  "2022-09-11.parquet": {
+    "local_path": "data/raw/prc2024/2022-09-11.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/992e8a1f-b0a1-40a3-b9d6-464de1a416bf",
+    "size": 1124005317,
+    "checksum": "md5:7ec89f1b8e16114c620410d3f40d51d9"
+  },
+  "2022-09-12.parquet": {
+    "local_path": "data/raw/prc2024/2022-09-12.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/657ab48b-4473-4660-b160-c99def4e68d5",
+    "size": 1056915766,
+    "checksum": "md5:7e8761b1b5dad2db47bdf5d91ed85ed9"
+  },
+  "2022-09-13.parquet": {
+    "local_path": "data/raw/prc2024/2022-09-13.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/abd8d0ee-33dc-40d1-8205-f4a191b4f729",
+    "size": 1023395717,
+    "checksum": "md5:0f5969bcedd92ff853fbc7bad4f1c9a9"
+  },
+  "2022-09-14.parquet": {
+    "local_path": "data/raw/prc2024/2022-09-14.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/02e3b68d-2208-4334-a74c-1c7983156b01",
+    "size": 1044302795,
+    "checksum": "md5:fdf4666f058bcf1da4843d192f37ca99"
+  },
+  "2022-09-15.parquet": {
+    "local_path": "data/raw/prc2024/2022-09-15.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/05b1bcc0-96ac-49f0-af92-382cc44eae41",
+    "size": 1067399883,
+    "checksum": "md5:c2a3db0dbf27b6a1b8bde1362f636f5c"
+  },
+  "2022-09-16.parquet": {
+    "local_path": "data/raw/prc2024/2022-09-16.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/91df5c62-6e75-4ffe-8757-a4dbe54f4fb0",
+    "size": 1056336830,
+    "checksum": "md5:d1d9e0c9df4bc15330f2d48afdb0a518"
+  },
+  "2022-09-17.parquet": {
+    "local_path": "data/raw/prc2024/2022-09-17.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/541fdd44-9293-48f6-abd1-b7c501f82794",
+    "size": 1113820047,
+    "checksum": "md5:88757ff33229c6707024c69ece552f5a"
+  },
+  "2022-09-18.parquet": {
+    "local_path": "data/raw/prc2024/2022-09-18.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/4f9e43d8-aad2-4f9b-a0bf-a7bf107d1d2b",
+    "size": 1133187927,
+    "checksum": "md5:7b48a8bae18dbb3ec50a158bb5ec4551"
+  },
+  "2022-09-19.parquet": {
+    "local_path": "data/raw/prc2024/2022-09-19.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/34c9a611-6cea-4383-ad72-cc7d2312b0ce",
+    "size": 1035300634,
+    "checksum": "md5:a28aab23611e3ed6a0549b0c02656886"
+  },
+  "2022-09-20.parquet": {
+    "local_path": "data/raw/prc2024/2022-09-20.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/13d8be8f-1b49-4c63-903f-6e106aa9c939",
+    "size": 1007224894,
+    "checksum": "md5:136e7e06c40091b9400681e3697fc657"
+  },
+  "2022-09-21.parquet": {
+    "local_path": "data/raw/prc2024/2022-09-21.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/7af89e82-4f03-42b7-a6a5-c644cd1be723",
+    "size": 1024740663,
+    "checksum": "md5:9707d4318324db350921510fdeed25c4"
+  },
+  "2022-09-22.parquet": {
+    "local_path": "data/raw/prc2024/2022-09-22.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/dd03fd31-e5f5-459c-b0d1-18898810a419",
+    "size": 1060544944,
+    "checksum": "md5:bab08c3797ffe19b03274af435fe8235"
+  },
+  "2022-09-23.parquet": {
+    "local_path": "data/raw/prc2024/2022-09-23.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/ce5d524e-975c-41ff-8bce-1721d7ec2c38",
+    "size": 1078497540,
+    "checksum": "md5:e44a7ade52de6b278911c861519d4282"
+  },
+  "2022-09-24.parquet": {
+    "local_path": "data/raw/prc2024/2022-09-24.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/f208b6f0-36c8-4440-81a1-81951ed9a3bb",
+    "size": 1090179600,
+    "checksum": "md5:f97415bfc50335b85802cb648b257d1c"
+  },
+  "2022-09-25.parquet": {
+    "local_path": "data/raw/prc2024/2022-09-25.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/2579a8a4-cc88-4d14-a810-001e159dae8a",
+    "size": 1085515078,
+    "checksum": "md5:67b0d809785ad1d559fa90697d3188e5"
+  },
+  "2022-09-26.parquet": {
+    "local_path": "data/raw/prc2024/2022-09-26.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/1574690b-dd84-4dcb-8f8a-e16c9d78fcea",
+    "size": 1045638686,
+    "checksum": "md5:584156910f90114bb891f4650f9a9ea7"
+  },
+  "2022-09-27.parquet": {
+    "local_path": "data/raw/prc2024/2022-09-27.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/d10cd3d7-96d0-4fcf-a0a9-33e1078c357b",
+    "size": 986725013,
+    "checksum": "md5:bb9b2cf8db559ec7bac3fa3f1139e3c7"
+  },
+  "2022-09-28.parquet": {
+    "local_path": "data/raw/prc2024/2022-09-28.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/990323db-6491-45c2-a4f4-5b13fd0d163a",
+    "size": 863483388,
+    "checksum": "md5:ff49ec3c263d71b49d393c07aace8763"
+  },
+  "2022-09-29.parquet": {
+    "local_path": "data/raw/prc2024/2022-09-29.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/dc6d2987-1172-45ed-a2b2-2150912933ef",
+    "size": 896174552,
+    "checksum": "md5:bf147ca97c20c56f0be31f29796b7fea"
+  },
+  "2022-09-30.parquet": {
+    "local_path": "data/raw/prc2024/2022-09-30.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/246fe468-c3b4-40cf-b402-cadcdf775e4b",
+    "size": 714342642,
+    "checksum": "md5:d5007101bec73d19d44af5b20757256a"
+  },
+  "2022-10-01.parquet": {
+    "local_path": "data/raw/prc2024/2022-10-01.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/c1653cf3-927f-4c67-95e9-801fd8da8ab5",
+    "size": 1085634974,
+    "checksum": "md5:80a2117816b4b18566756c81bd04469a"
+  },
+  "2022-10-02.parquet": {
+    "local_path": "data/raw/prc2024/2022-10-02.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/2e7be5cc-2575-477a-9278-632ee5fd32b9",
+    "size": 1085018930,
+    "checksum": "md5:2895e8fde540a65b8ff45f76aabd8b84"
+  },
+  "2022-10-03.parquet": {
+    "local_path": "data/raw/prc2024/2022-10-03.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/a2812bfb-23d6-4f50-9a76-ba4ec189c9e9",
+    "size": 1002114286,
+    "checksum": "md5:71cb3d36f83fcd5f0db5286356e526d6"
+  },
+  "2022-10-04.parquet": {
+    "local_path": "data/raw/prc2024/2022-10-04.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/6f69b78f-3092-4b9c-9380-6e711fa54a3c",
+    "size": 929494124,
+    "checksum": "md5:52ac1687ae16fa549bd34babaec4b528"
+  },
+  "2022-10-05.parquet": {
+    "local_path": "data/raw/prc2024/2022-10-05.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/981307b7-5e8f-49a4-97cd-78b682223788",
+    "size": 929371270,
+    "checksum": "md5:1312031d28792a24b26795e61a3ca5e3"
+  },
+  "2022-10-06.parquet": {
+    "local_path": "data/raw/prc2024/2022-10-06.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/dee10ba6-80c9-4e86-b712-cfc75d274dde",
+    "size": 973921439,
+    "checksum": "md5:0f498d05eb141a938fb9160da51122ff"
+  },
+  "2022-10-07.parquet": {
+    "local_path": "data/raw/prc2024/2022-10-07.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/8fb91617-506d-4bc9-8bac-44e212d746fa",
+    "size": 992948309,
+    "checksum": "md5:59e1d03967e96a5c644e239d88b3d93c"
+  },
+  "2022-10-08.parquet": {
+    "local_path": "data/raw/prc2024/2022-10-08.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/6a71d874-35d3-43d0-8982-7e2952b88ba0",
+    "size": 1029610858,
+    "checksum": "md5:7b6578be0907c34b6c726af7fb6675bd"
+  },
+  "2022-10-09.parquet": {
+    "local_path": "data/raw/prc2024/2022-10-09.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/8490378c-dc42-4679-823d-af1cd25b50fb",
+    "size": 1018656175,
+    "checksum": "md5:a5a0c9ed16b9cccbcb9cd4ac154d1be6"
+  },
+  "2022-10-10.parquet": {
+    "local_path": "data/raw/prc2024/2022-10-10.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/de4c8bdc-a487-42d9-aca4-fc09fd2c7ee8",
+    "size": 942908562,
+    "checksum": "md5:6ddc63f81596d898965a2e3266f1ecd4"
+  },
+  "2022-10-11.parquet": {
+    "local_path": "data/raw/prc2024/2022-10-11.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/ab0ee822-3635-4433-b689-bb8687a65296",
+    "size": 894602002,
+    "checksum": "md5:82077c1ab8fe80b0905af7bad5230dde"
+  },
+  "2022-10-12.parquet": {
+    "local_path": "data/raw/prc2024/2022-10-12.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/56cd4d7d-34f9-458d-8b83-a14784df8d13",
+    "size": 927241152,
+    "checksum": "md5:5d2a7c3e33e49ed1f12fd55f1466ab0a"
+  },
+  "2022-10-13.parquet": {
+    "local_path": "data/raw/prc2024/2022-10-13.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/ded2a775-3267-4e8c-a34a-04f70022b582",
+    "size": 961692482,
+    "checksum": "md5:9d4ef2ed4a4b5ae3f409b4c58db8a434"
+  },
+  "2022-10-14.parquet": {
+    "local_path": "data/raw/prc2024/2022-10-14.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/fae43653-54e5-4705-b448-3eac20b09908",
+    "size": 990073372,
+    "checksum": "md5:9b72a722cf7648640441b14cbc5db4ba"
+  },
+  "2022-10-15.parquet": {
+    "local_path": "data/raw/prc2024/2022-10-15.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/af80e9e1-28ef-4b8b-a342-306aebb34df6",
+    "size": 1031962806,
+    "checksum": "md5:44228b22cac3061bea0f32cfd0d3d374"
+  },
+  "2022-10-16.parquet": {
+    "local_path": "data/raw/prc2024/2022-10-16.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/c80d386c-d4a8-4716-8de3-ae1c9b2b3717",
+    "size": 1025143024,
+    "checksum": "md5:2972521234f527bcbde45b9ed50660d7"
+  },
+  "2022-10-17.parquet": {
+    "local_path": "data/raw/prc2024/2022-10-17.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/c603e692-36bb-417d-a66c-07a5ee938779",
+    "size": 944286863,
+    "checksum": "md5:fd0e2baca7c1afcb91a4e044b0df8436"
+  },
+  "2022-10-18.parquet": {
+    "local_path": "data/raw/prc2024/2022-10-18.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/2af6f1fb-bcb3-4de2-80d9-ab75a1e533b8",
+    "size": 901329932,
+    "checksum": "md5:e6616b35c504573c0e7e8aa511a6f559"
+  },
+  "2022-10-19.parquet": {
+    "local_path": "data/raw/prc2024/2022-10-19.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/b5aca3f4-410d-4fd7-92c1-37daef90b83b",
+    "size": 924853334,
+    "checksum": "md5:ecc3e8a930190a22d335523575a86c78"
+  },
+  "2022-10-20.parquet": {
+    "local_path": "data/raw/prc2024/2022-10-20.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/53a52a16-607a-48c4-b4d0-b453db06988e",
+    "size": 950566113,
+    "checksum": "md5:a260ba7e2023f17e8631c70665a3ca7b"
+  },
+  "2022-10-21.parquet": {
+    "local_path": "data/raw/prc2024/2022-10-21.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/6dfb739d-ae4d-435d-9807-4d4ce62b19c4",
+    "size": 971193123,
+    "checksum": "md5:d23dc9479eccd1cb22a1c6a69b27ebf0"
+  },
+  "2022-10-22.parquet": {
+    "local_path": "data/raw/prc2024/2022-10-22.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/d5c23a53-b844-4511-b4e9-4b0eb975920e",
+    "size": 1020754604,
+    "checksum": "md5:f651fe8ee2da9a30d2fed4ef3265c6a5"
+  },
+  "2022-10-23.parquet": {
+    "local_path": "data/raw/prc2024/2022-10-23.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/8fa11105-cd85-4ba7-8267-c9e2c3602800",
+    "size": 1024365461,
+    "checksum": "md5:2cbfb9154e12c80409159c60ce151f45"
+  },
+  "2022-10-24.parquet": {
+    "local_path": "data/raw/prc2024/2022-10-24.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/a091e91c-b574-4007-9703-cfeace310a5f",
+    "size": 932210338,
+    "checksum": "md5:83f9a810136500e264ed8535e2751080"
+  },
+  "2022-10-25.parquet": {
+    "local_path": "data/raw/prc2024/2022-10-25.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/2e9e0943-705b-49fd-ad14-1bd15fbded0e",
+    "size": 887373310,
+    "checksum": "md5:b8b6de66cd38eaa25bb96d511a504cdb"
+  },
+  "2022-10-26.parquet": {
+    "local_path": "data/raw/prc2024/2022-10-26.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/1429bb3c-8ffd-4dfe-96a2-63f43a3142e5",
+    "size": 927515202,
+    "checksum": "md5:12ee48e4cca951ce37c5af4070197b43"
+  },
+  "2022-10-27.parquet": {
+    "local_path": "data/raw/prc2024/2022-10-27.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/13a64daf-71ed-48a0-bcbe-7a0bd53e78f6",
+    "size": 938465802,
+    "checksum": "md5:a8ddbd4eca0d22e1f253623faaceedab"
+  },
+  "2022-10-28.parquet": {
+    "local_path": "data/raw/prc2024/2022-10-28.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/78c0f55f-95cf-4b5c-9153-4a062618df3e",
+    "size": 967968526,
+    "checksum": "md5:40eda0067d9825f10102ae47c82ebe87"
+  },
+  "2022-10-29.parquet": {
+    "local_path": "data/raw/prc2024/2022-10-29.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/def1ef3c-ab59-48b6-a7a0-bc6942bcfe4b",
+    "size": 984722996,
+    "checksum": "md5:0e07e7417b54b3e0edda836b2380a4ee"
+  },
+  "2022-10-30.parquet": {
+    "local_path": "data/raw/prc2024/2022-10-30.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/82b8a657-5332-467c-a7eb-91c0573a4fb0",
+    "size": 796927081,
+    "checksum": "md5:80e0e1560e2f2ca37b60311fa25b8ef3"
+  },
+  "2022-10-31.parquet": {
+    "local_path": "data/raw/prc2024/2022-10-31.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/a1e2673f-79c9-4b74-bec3-b437c555b737",
+    "size": 574088503,
+    "checksum": "md5:fe344d871abc02c94505ddef1f1066d3"
+  },
+  "2022-11-01.parquet": {
+    "local_path": "data/raw/prc2024/2022-11-01.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/f0237183-807d-4026-8777-e7cbf76c537f",
+    "size": 797284519,
+    "checksum": "md5:78b72b75440becd3bca4deb02c2572ad"
+  },
+  "2022-11-02.parquet": {
+    "local_path": "data/raw/prc2024/2022-11-02.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/0545a330-136f-4156-834a-582e013b7003",
+    "size": 806443524,
+    "checksum": "md5:f60293778c2ab526909cd07cf143805e"
+  },
+  "2022-11-03.parquet": {
+    "local_path": "data/raw/prc2024/2022-11-03.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/13264d3f-0fd8-44e1-8bdd-a588ff96cfc6",
+    "size": 844930313,
+    "checksum": "md5:3197d05a73a1c756954eba0d970f5552"
+  },
+  "2022-11-04.parquet": {
+    "local_path": "data/raw/prc2024/2022-11-04.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/08ab3352-5786-4f4d-972d-3793ca43a65d",
+    "size": 846570244,
+    "checksum": "md5:01c720a063f7680362795dd990aa2c13"
+  },
+  "2022-11-05.parquet": {
+    "local_path": "data/raw/prc2024/2022-11-05.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/3582e5d3-fbb6-4766-9cbb-0c82ddbbd646",
+    "size": 804716487,
+    "checksum": "md5:19dc5b7937331d4258463d3c29f4417b"
+  },
+  "2022-11-06.parquet": {
+    "local_path": "data/raw/prc2024/2022-11-06.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/f2d0878e-f361-49fd-990c-e557189a3b62",
+    "size": 876794019,
+    "checksum": "md5:137072c8b2e05c7882d977383aa11ee6"
+  },
+  "2022-11-07.parquet": {
+    "local_path": "data/raw/prc2024/2022-11-07.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/8ec60cc4-31bb-4280-aa93-3fcec659116c",
+    "size": 813968698,
+    "checksum": "md5:4371521841483da1367090cf008cddc9"
+  },
+  "2022-11-08.parquet": {
+    "local_path": "data/raw/prc2024/2022-11-08.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/768cd5c9-82f2-477d-ad89-504da91ff748",
+    "size": 738738936,
+    "checksum": "md5:d56651b528c93769d8a01ea8bf329730"
+  },
+  "2022-11-09.parquet": {
+    "local_path": "data/raw/prc2024/2022-11-09.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/a31bac82-bb3a-4ea4-8f2e-ae3d85073023",
+    "size": 722170427,
+    "checksum": "md5:7baf0c8163dcdb7fdd036518092471d3"
+  },
+  "2022-11-10.parquet": {
+    "local_path": "data/raw/prc2024/2022-11-10.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/0510bada-3f1c-408d-a7c1-309e921eaa63",
+    "size": 801837775,
+    "checksum": "md5:53487ef82239795bb3223937959f229e"
+  },
+  "2022-11-11.parquet": {
+    "local_path": "data/raw/prc2024/2022-11-11.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/367213fb-2796-43e3-b24c-e95f2338d48c",
+    "size": 809496740,
+    "checksum": "md5:0c5b3c15df75d71aabd26df2120fee6f"
+  },
+  "2022-11-12.parquet": {
+    "local_path": "data/raw/prc2024/2022-11-12.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/ef2e7526-8393-472f-aa49-5f788683a470",
+    "size": 736893451,
+    "checksum": "md5:5f6bc1860b2598cc9ec98f5b9486b4f6"
+  },
+  "2022-11-13.parquet": {
+    "local_path": "data/raw/prc2024/2022-11-13.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/1b1b9ed5-4605-486e-a31c-d3afa0fea018",
+    "size": 822064962,
+    "checksum": "md5:3eb5cee093557f1becb47bd9cfdf719f"
+  },
+  "2022-11-14.parquet": {
+    "local_path": "data/raw/prc2024/2022-11-14.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/8472b6fb-b452-425d-90eb-b5dd344e3c18",
+    "size": 790059198,
+    "checksum": "md5:a4aa6d6f98e524c20bfecc0ac991cc3a"
+  },
+  "2022-11-15.parquet": {
+    "local_path": "data/raw/prc2024/2022-11-15.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/cb585c1d-e0a4-4ec0-824c-ab8f9936ab65",
+    "size": 726843435,
+    "checksum": "md5:9b44dcff57d641ae7c72e000d6f11db0"
+  },
+  "2022-11-16.parquet": {
+    "local_path": "data/raw/prc2024/2022-11-16.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/87804add-5f05-48ac-a916-19750db8d201",
+    "size": 736126879,
+    "checksum": "md5:82e82019fbc4161dad48ca8891ba9454"
+  },
+  "2022-11-17.parquet": {
+    "local_path": "data/raw/prc2024/2022-11-17.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/8a30f57a-b1bd-4e87-86ca-d970e6c7df36",
+    "size": 790883492,
+    "checksum": "md5:f247f3c39199866da26e6d2a10a25a08"
+  },
+  "2022-11-18.parquet": {
+    "local_path": "data/raw/prc2024/2022-11-18.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/4cdd6b8d-f709-4e96-ba32-d6bd86977e11",
+    "size": 798366644,
+    "checksum": "md5:69c5869dcaceb7195e8fc6888688c0b0"
+  },
+  "2022-11-19.parquet": {
+    "local_path": "data/raw/prc2024/2022-11-19.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/ca312239-0394-4f94-ab3f-c8e0cdaa065c",
+    "size": 731385069,
+    "checksum": "md5:168267de7111a480070d6430fcaeda3f"
+  },
+  "2022-11-20.parquet": {
+    "local_path": "data/raw/prc2024/2022-11-20.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/cc5c413a-3e03-4900-b307-39fd168496d2",
+    "size": 817171295,
+    "checksum": "md5:29db3af35bcac69dde3a965f2421a550"
+  },
+  "2022-11-21.parquet": {
+    "local_path": "data/raw/prc2024/2022-11-21.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/49ec0570-28a4-496c-9d6b-11fb13e6c51b",
+    "size": 792912944,
+    "checksum": "md5:807e8a832fb9c728bf0369ac6c667bca"
+  },
+  "2022-11-22.parquet": {
+    "local_path": "data/raw/prc2024/2022-11-22.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/e09f8c27-6de1-49cc-8c69-4f5f0960684b",
+    "size": 694663841,
+    "checksum": "md5:eb2f45de3ec224b2b0c839a7964cd7e7"
+  },
+  "2022-11-23.parquet": {
+    "local_path": "data/raw/prc2024/2022-11-23.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/8d76cb86-a013-4502-bc24-9b0e248b24dd",
+    "size": 701256216,
+    "checksum": "md5:b10f3e537fd5ecacc02b08544e83b09b"
+  },
+  "2022-11-24.parquet": {
+    "local_path": "data/raw/prc2024/2022-11-24.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/f595a788-0c13-4394-af8c-42d5d66800cc",
+    "size": 739908273,
+    "checksum": "md5:507b61148b66dc79de62d2b8d882e55d"
+  },
+  "2022-11-25.parquet": {
+    "local_path": "data/raw/prc2024/2022-11-25.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/1bc8220b-14ab-487c-aedd-8ebec02658d1",
+    "size": 769689961,
+    "checksum": "md5:2e99f653008fa696eeb0ac2e143cf7fc"
+  },
+  "2022-11-26.parquet": {
+    "local_path": "data/raw/prc2024/2022-11-26.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/692b006a-f191-4573-974a-7838df9e5f38",
+    "size": 663306908,
+    "checksum": "md5:9c5ca26ca2889a61d61a44d56f3db970"
+  },
+  "2022-11-27.parquet": {
+    "local_path": "data/raw/prc2024/2022-11-27.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/d1e3b41d-a146-49d5-9d75-e6f748291614",
+    "size": 776439942,
+    "checksum": "md5:10b02995ccaf7dbb6923ce2a720d143b"
+  },
+  "2022-11-28.parquet": {
+    "local_path": "data/raw/prc2024/2022-11-28.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/0639b24a-63e3-42c7-93cc-337227828709",
+    "size": 614873128,
+    "checksum": "md5:7ceda998bb304a3c7819fc5a3ee3ad9b"
+  },
+  "2022-11-29.parquet": {
+    "local_path": "data/raw/prc2024/2022-11-29.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/8bef9a34-e6d4-434f-8a11-8b2860b5d26a",
+    "size": 565374594,
+    "checksum": "md5:7a9275574ffc0884e0182fd79d27e01d"
+  },
+  "2022-11-30.parquet": {
+    "local_path": "data/raw/prc2024/2022-11-30.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/1220ac7a-8894-4224-9764-41099ba3df44",
+    "size": 525117971,
+    "checksum": "md5:01e0f82681269184687b8956569e47ab"
+  },
+  "2022-12-01.parquet": {
+    "local_path": "data/raw/prc2024/2022-12-01.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/ff1634b7-1e22-470b-b12d-ebafcf725d4e",
+    "size": 768208225,
+    "checksum": "md5:5b6eb41cabf85a92eef4aac45eee4d00"
+  },
+  "2022-12-02.parquet": {
+    "local_path": "data/raw/prc2024/2022-12-02.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/214e3237-405c-4ad7-b14b-5bc0b563c6e9",
+    "size": 761089105,
+    "checksum": "md5:d79359e0fbf096d6ec4b3ec415c6fdb1"
+  },
+  "2022-12-03.parquet": {
+    "local_path": "data/raw/prc2024/2022-12-03.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/b64e591f-6917-40d1-8902-1616829f780e",
+    "size": 698500813,
+    "checksum": "md5:f0e174fbab52a81d129bc546d40c35d4"
+  },
+  "2022-12-04.parquet": {
+    "local_path": "data/raw/prc2024/2022-12-04.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/3fabf9f1-54d1-4af5-a804-77cabb10ac95",
+    "size": 787008849,
+    "checksum": "md5:e1afe7c5d8555a1fc0df06f7ddff36ef"
+  },
+  "2022-12-05.parquet": {
+    "local_path": "data/raw/prc2024/2022-12-05.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/05c0d317-f636-40d9-a36b-201805295067",
+    "size": 746332384,
+    "checksum": "md5:d977a4b07e1280abe64e9f97651a3651"
+  },
+  "2022-12-06.parquet": {
+    "local_path": "data/raw/prc2024/2022-12-06.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/dc39f04f-8107-4805-bb56-dd5be32708dc",
+    "size": 654849306,
+    "checksum": "md5:51738173df8ec2b3af8b461457d67188"
+  },
+  "2022-12-07.parquet": {
+    "local_path": "data/raw/prc2024/2022-12-07.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/7913e9ff-5111-4c2b-a745-d0da7002a0e2",
+    "size": 698699052,
+    "checksum": "md5:2183dc64a1f53ab5e11ec0913c842011"
+  },
+  "2022-12-08.parquet": {
+    "local_path": "data/raw/prc2024/2022-12-08.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/549fa345-78fd-43f2-91ea-cdd2adfe3a8e",
+    "size": 764496601,
+    "checksum": "md5:54d73bcd7ea1fdf06563e0f3e7de5466"
+  },
+  "2022-12-09.parquet": {
+    "local_path": "data/raw/prc2024/2022-12-09.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/d3981f65-326b-4105-9d06-1d8fa867e873",
+    "size": 755744480,
+    "checksum": "md5:b39ebcf13f4fe3348d04a74ec870eabe"
+  },
+  "2022-12-10.parquet": {
+    "local_path": "data/raw/prc2024/2022-12-10.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/def21f38-3a16-45df-b1a5-7488c5a98486",
+    "size": 688149244,
+    "checksum": "md5:221109c1f31fc1b1706bb98aee8937db"
+  },
+  "2022-12-11.parquet": {
+    "local_path": "data/raw/prc2024/2022-12-11.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/430c54fc-8267-4372-87af-4813f6baf2cf",
+    "size": 775251487,
+    "checksum": "md5:2a4310ed999048353d82a7336f1cbc7a"
+  },
+  "2022-12-12.parquet": {
+    "local_path": "data/raw/prc2024/2022-12-12.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/d3d7fd6c-4347-4f66-ad10-29fc4d92aaee",
+    "size": 722709433,
+    "checksum": "md5:101cd898ba1f4b63897a9d723118c3c4"
+  },
+  "2022-12-13.parquet": {
+    "local_path": "data/raw/prc2024/2022-12-13.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/46d0b660-9889-48a9-8230-cc3015a1a657",
+    "size": 673907629,
+    "checksum": "md5:b8ec96a16d647d8fe1d76239d17b2b88"
+  },
+  "2022-12-14.parquet": {
+    "local_path": "data/raw/prc2024/2022-12-14.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/bf357f89-9291-40a0-ade1-32aa06ca59a1",
+    "size": 668109237,
+    "checksum": "md5:1098a104f07d2c2b857be7d53cb9afc8"
+  },
+  "2022-12-15.parquet": {
+    "local_path": "data/raw/prc2024/2022-12-15.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/2f3b79b4-f9c0-49ba-9f85-6dcffa67c5fe",
+    "size": 768464905,
+    "checksum": "md5:8338d4d4c160d5a39e63c765d8678ed0"
+  },
+  "2022-12-16.parquet": {
+    "local_path": "data/raw/prc2024/2022-12-16.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/cff0b7fe-40fb-4f3d-b805-041fa27f99ab",
+    "size": 788339748,
+    "checksum": "md5:44f0a0b202e0fa4380d43772e237fce4"
+  },
+  "2022-12-17.parquet": {
+    "local_path": "data/raw/prc2024/2022-12-17.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/9906eba4-d5ed-44e4-93b7-7b607d36f05d",
+    "size": 778551859,
+    "checksum": "md5:005278cedf8008f21708096dcfea9b29"
+  },
+  "2022-12-18.parquet": {
+    "local_path": "data/raw/prc2024/2022-12-18.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/325093a5-649e-4b85-8404-a843bcc9e5af",
+    "size": 803745587,
+    "checksum": "md5:856cca2b6e6d4ba2e9274f5165fb23b6"
+  },
+  "2022-12-19.parquet": {
+    "local_path": "data/raw/prc2024/2022-12-19.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/829ce359-050b-4a0a-8649-55134ac78f48",
+    "size": 797003326,
+    "checksum": "md5:f8f13d040d9ad7d37425a924c53caa35"
+  },
+  "2022-12-20.parquet": {
+    "local_path": "data/raw/prc2024/2022-12-20.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/a85c0be1-d666-4ece-9048-891c4426fa92",
+    "size": 751620669,
+    "checksum": "md5:2986402f7057caf0b4e0466c8dac5e0f"
+  },
+  "2022-12-21.parquet": {
+    "local_path": "data/raw/prc2024/2022-12-21.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/c18de1f7-7f12-494a-9271-8cd69bf0f8a2",
+    "size": 774032011,
+    "checksum": "md5:8d3ca2ead7875f4b352caf568bd375a5"
+  },
+  "2022-12-22.parquet": {
+    "local_path": "data/raw/prc2024/2022-12-22.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/15d4c4fc-125c-4b1d-8c8d-307147d61a0d",
+    "size": 775425032,
+    "checksum": "md5:ea80372bbed51327aabcff1a1e5a1a26"
+  },
+  "2022-12-23.parquet": {
+    "local_path": "data/raw/prc2024/2022-12-23.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/77971f81-8edf-425a-b1c8-82fb1d7b2acf",
+    "size": 628690316,
+    "checksum": "md5:d5d18503068fbde1a6d48365c43c95d9"
+  },
+  "2022-12-24.parquet": {
+    "local_path": "data/raw/prc2024/2022-12-24.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/aa1cf1fc-397b-4f4f-9d17-ac346b7e1fe5",
+    "size": 536532727,
+    "checksum": "md5:f89d152dc712ed43f218b25b4e323094"
+  },
+  "2022-12-25.parquet": {
+    "local_path": "data/raw/prc2024/2022-12-25.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/5eaa0430-79c4-4961-bced-008467f73f5d",
+    "size": 499565567,
+    "checksum": "md5:0d36ebf10f2922db3a209f5356bd1d80"
+  },
+  "2022-12-26.parquet": {
+    "local_path": "data/raw/prc2024/2022-12-26.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/8b5e64c3-bb75-4f60-be7d-59e565bc1c9c",
+    "size": 589798216,
+    "checksum": "md5:decd5f111f74699c1c8306299140a3e6"
+  },
+  "2022-12-27.parquet": {
+    "local_path": "data/raw/prc2024/2022-12-27.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/86b96ca4-5b74-4725-b21c-6523702b8848",
+    "size": 681822792,
+    "checksum": "md5:75bc261969dd09cfee12c50df503fe65"
+  },
+  "2022-12-28.parquet": {
+    "local_path": "data/raw/prc2024/2022-12-28.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/dcc36b30-d4a5-467d-ba74-03785c5dff50",
+    "size": 716919966,
+    "checksum": "md5:5150faeb87401633d06e9c86613372e8"
+  },
+  "2022-12-29.parquet": {
+    "local_path": "data/raw/prc2024/2022-12-29.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/47c55e34-5115-47cb-9e00-273220e46c44",
+    "size": 758912871,
+    "checksum": "md5:e85e8299b2892b006b093cdc4c8b9952"
+  },
+  "2022-12-30.parquet": {
+    "local_path": "data/raw/prc2024/2022-12-30.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/ad4753e8-c8ac-4059-aa44-7ec32f4f39c0",
+    "size": 665799487,
+    "checksum": "md5:a23f1fe5cfc106fa1fe3a6832c034d0c"
+  },
+  "2022-12-31.parquet": {
+    "local_path": "data/raw/prc2024/2022-12-31.parquet",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/293ef034-c469-4d13-87f2-1778cccc645d",
+    "size": 462325651,
+    "checksum": "md5:76f845b578ecc2284b0e87996e230c3c"
+  },
+  "flight_list.csv": {
+    "local_path": "data/raw/prc2024/flight_list.csv",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/2bfbef1a-a75b-4045-a46e-3325bf363c27",
+    "size": 101091663,
+    "checksum": "md5:2da9db49afcae255eab0828f1e2f8575"
+  },
+  "ranking_test.csv": {
+    "local_path": "data/raw/prc2024/ranking_test.csv",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/fa04da28-f981-4731-ab12-39483393d61e",
+    "size": 20319842,
+    "checksum": "md5:a28eaf3820198dc6a04f82159703de33"
+  },
+  "ranking_test_final.csv": {
+    "local_path": "data/raw/prc2024/ranking_test_final.csv",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/4bd78114-bb3a-4f77-be43-ac3c0f44a037",
+    "size": 30332140,
+    "checksum": "md5:c84fd0be2f2501105c9c88b1573536db"
+  },
+  "test.csv": {
+    "local_path": "data/raw/prc2024/test.csv",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/f9bda3f9-2fc9-4ba7-9eca-989ab55b608a",
+    "size": 19614175,
+    "checksum": "md5:ab0c61a6c979f772c6cbeda9576c139e"
+  },
+  "test_final.csv": {
+    "local_path": "data/raw/prc2024/test_final.csv",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/04f44d3f-00a8-4481-be9a-f5bd603e307f",
+    "size": 29278198,
+    "checksum": "md5:992da3c2693aaeee1fa62c5731a1a37d"
+  },
+  "train.csv": {
+    "local_path": "data/raw/prc2024/train.csv",
+    "url": "https://data.4tu.nl/file/8cb8484b-dbe7-4750-8b87-a5b1dbc621b4/75eaf004-cc11-4a87-a928-c2a67d431d57",
+    "size": 70759721,
+    "checksum": "md5:fad9443429290efeb4b959ab447e9308"
+  }
+}

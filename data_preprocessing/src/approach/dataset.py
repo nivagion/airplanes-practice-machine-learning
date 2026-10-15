@@ -58,12 +58,15 @@ def add_geometry(frame: pd.DataFrame, geometry: dict) -> pd.DataFrame:
     out["track_error_deg"] = (out.track - geometry["true_bearing_deg"] + 180) % 360 - 180
     out["groundspeed_mps"] = out.groundspeed * (1852 / 3600)
     out["baro_altitude_m"] = out.altitude * 0.3048
+    # Expansion uses an explicitly uncorrected pressure-altitude proxy. Legacy
+    # geometry omits this key, preserving the original absolute-altitude rules.
+    out["height_proxy_ft"] = out.altitude - geometry.get("threshold_elevation_ft", 0.0)
     out["vertical_rate_mps"] = out.vertical_rate * 0.3048 / 60
     out["speed_toward_threshold_mps"] = out.groundspeed_mps * np.cos(np.deg2rad(out.track_error_deg))
     return out
 
 
-def first_confirmed_alignment(track: pd.DataFrame, config: dict):
+def first_alignment_event(track: pd.DataFrame, config: dict):
     """Returns the first causal confirmation. Never backdates it by ten seconds.
 
     Detect geometric alignment before applying the final-approach distance/altitude
@@ -74,32 +77,41 @@ def first_confirmed_alignment(track: pd.DataFrame, config: dict):
              & (track.cross_track_m.abs() <= config["alignment_cross_track_m"])
              & (track.track_error_deg.abs() <= config["alignment_track_error_deg"])
              & (track.groundspeed_mps >= config["min_snapshot_groundspeed_mps"]))
-    times = track.timestamp.tolist()
-    started = None
+    # Find eligible runs in arrays, avoiding a Python loop over every observation
+    # for every runway. Confirmation remains at the first observed timestamp
+    # after the required uninterrupted duration; no resampling is introduced.
+    eligible = np.flatnonzero(match.to_numpy())
+    if not len(eligible):
+        return None, "no_confirmed_alignment", None
+    ns = track.timestamp.dt.as_unit("ns").astype("int64").to_numpy()
+    gaps = np.diff(ns, prepend=ns[0])
+    max_gap = config["max_observation_gap_s"] * 1e9
+    duration = int(config["alignment_duration_s"] * 1e9)
+    runs = np.split(eligible, np.flatnonzero(np.diff(eligible) > 1) + 1)
     onset = None
-    onset_observed = False
-    for i, eligible in enumerate(match.to_numpy()):
-        gap = (times[i] - times[i - 1]).total_seconds() if i else None
-        if not eligible:
-            started = onset = None
-            onset_observed = False
-            continue
-        if started is None:
-            started = onset = i
-            onset_observed = bool(i > 0 and gap <= config["max_observation_gap_s"] and not match.iloc[i - 1])
-        elif gap > config["max_observation_gap_s"]:
-            # Only the uninterrupted recent run can support confirmation.
-            started = i
-        if (times[i] - times[started]).total_seconds() >= config["alignment_duration_s"]:
+    for run in runs:
+        onset = int(run[0])
+        onset_observed = onset > 0 and gaps[onset] <= max_gap
+        recent_runs = np.split(run, np.flatnonzero(gaps[run[1:]] > max_gap) + 1)
+        for recent in recent_runs:
+            started = int(recent[0])
+            if ns[recent[-1]] - ns[started] < duration:
+                continue
+            i = int(recent[np.searchsorted(ns[recent], ns[started] + duration)])
             if not onset_observed:
-                return None, "missing_alignment_onset", onset
+                return i, "missing_alignment_onset", onset
             row = track.iloc[i]
             if row.distance_to_threshold_m > config["max_snapshot_distance_m"]:
-                return None, "first_alignment_outside_final_window", onset
-            if row.altitude > config["max_snapshot_altitude_ft"]:
-                return None, "first_alignment_too_high", onset
+                return i, "first_alignment_outside_final_window", onset
+            if row.get("height_proxy_ft", row.altitude) > config["max_snapshot_altitude_ft"]:
+                return i, "first_alignment_too_high", onset
             return i, None, onset
     return None, "no_confirmed_alignment", onset
+
+
+def first_confirmed_alignment(track: pd.DataFrame, config: dict):
+    index, reason, onset = first_alignment_event(track, config)
+    return (None if reason else index), reason, onset
 
 
 def first_threshold_segment(track, snapshot_index):
@@ -108,7 +120,7 @@ def first_threshold_segment(track, snapshot_index):
         a, b = track.iloc[i - 1], track.iloc[i]
         if (a.along_m < 0 <= b.along_m and max(abs(a.cross_track_m), abs(b.cross_track_m)) <= 100
                 and max(abs(a.track_error_deg), abs(b.track_error_deg)) <= 20
-                and max(a.altitude, b.altitude) < 1500):
+                and max(a.get("height_proxy_ft", a.altitude), b.get("height_proxy_ft", b.altitude)) < 1500):
             return i - 1, i
     return None
 
@@ -123,7 +135,7 @@ def check_crossing(a, b, config):
         return None, "crossing_wrong_direction"
     if not all(np.isfinite(x) for x in [a.altitude, b.altitude, a.groundspeed_mps, b.groundspeed_mps]):
         return None, "crossing_missing_state"
-    if max(a.altitude, b.altitude) > config["crossing_max_altitude_ft"]:
+    if max(a.get("height_proxy_ft", a.altitude), b.get("height_proxy_ft", b.altitude)) > config["crossing_max_altitude_ft"]:
         return None, "crossing_too_high"
     derived = math.hypot(b.east_m - a.east_m, b.north_m - a.north_m) / gap
     reported = (a.groundspeed_mps + b.groundspeed_mps) / 2
@@ -146,7 +158,7 @@ def has_landing_continuation(track, crossing_time, geometry, config, crossing_sp
     for row in after.itertuples():
         good = (0 <= row.along_m <= length and abs(row.cross_track_m) <= 60
                 and 0 <= row.groundspeed_mps <= config["landing_evidence_groundspeed_mps"]
-                and (pd.isna(row.altitude) or row.altitude <= config["crossing_max_altitude_ft"]))
+                and (pd.isna(row.altitude) or getattr(row, "height_proxy_ft", row.altitude) <= config["crossing_max_altitude_ft"]))
         gap = (row.timestamp - last).total_seconds() if last is not None else 0
         if not good:
             start = None
@@ -161,14 +173,22 @@ def has_landing_continuation(track, crossing_time, geometry, config, crossing_sp
     for row in after.itertuples():
         if (row.timestamp - crossing_time).total_seconds() < 8:
             continue
-        recent = after[after.timestamp.between(row.timestamp - pd.Timedelta(seconds=config["landing_level_window_s"]), row.timestamp)]
+        boundary = row.timestamp - pd.Timedelta(seconds=config["landing_level_window_s"])
+        anchors = after[after.timestamp <= boundary]
+        if anchors.empty:
+            continue
+        # Irregular raw ADS-B reports rarely fall exactly on the six-second
+        # boundary. Include the last observation before it, so the evidence
+        # actually spans at least six seconds; continuity is still checked below.
+        recent = after[after.timestamp.between(anchors.timestamp.iloc[-1], row.timestamp)]
         if len(recent) < 5 or (recent.timestamp.iloc[-1] - recent.timestamp.iloc[0]).total_seconds() < config["landing_level_window_s"]:
             continue
         if (recent.timestamp.diff().dt.total_seconds().dropna() > config["max_observation_gap_s"]).any():
             continue
         if not (recent.along_m.between(300, length) & (recent.cross_track_m.abs() <= 60)).all():
             continue
-        if not recent.altitude.notna().all() or recent.altitude.max() > config["crossing_max_altitude_ft"]:
+        height = recent.get("height_proxy_ft", recent.altitude)
+        if not recent.altitude.notna().all() or height.max() > config["crossing_max_altitude_ft"]:
             continue
         if recent.altitude.max() - recent.altitude.min() > config["landing_altitude_range_ft"]:
             continue
@@ -258,62 +278,18 @@ def build_dataset(root: Path):
             continue
         snapshot = track.iloc[snapshot_index]
         entry["snapshot_time_utc"] = snapshot.timestamp.isoformat()
-        crossing_segment = first_threshold_segment(track, snapshot_index)
-        if crossing_segment is None:
-            entry["reason"] = "no_threshold_crossing"
-            audit.append(entry)
-            continue
-        ia, ib = crossing_segment
-        a, b = track.iloc[ia], track.iloc[ib]
-        crossing, reason = check_crossing(a, b, config)
+        # Local import avoids a module cycle; both pipelines use the same label rules.
+        from .labeling import label_approach
+        features, evidence, reason = label_approach(track, snapshot_index, onset_index, geometry, config)
         if reason:
             entry["reason"] = reason
             audit.append(entry)
             continue
-        crossing_time = crossing["crossing"]
+        crossing_time = pd.Timestamp(evidence["crossing_time_utc"])
         entry["crossing_time_utc"] = crossing_time.isoformat()
-        remaining = (crossing_time - snapshot.timestamp).total_seconds()
-        if not 0 < remaining <= config["max_remaining_time_s"]:
-            entry["reason"] = "remaining_time_outside_window"
-        elif (track.timestamp.iloc[snapshot_index:ib + 1].diff().dt.total_seconds().dropna() > config["max_observation_gap_s"]).any():
-            entry["reason"] = "gap_between_snapshot_and_crossing"
-        elif (track.cross_track_m.iloc[snapshot_index:ia + 1].abs() > 500).any() or (track.track_error_deg.iloc[snapshot_index:ia + 1].abs() > 45).any():
-            entry["reason"] = "broken_or_missed_approach"
-        else:
-            after = track[track.timestamp.between(crossing_time, crossing_time + pd.Timedelta(seconds=config["landing_evidence_window_s"]))]
-            climb = ((after.altitude > b.altitude + 250) & (after.vertical_rate > 600) & (after.groundspeed_mps > 45))
-            if int(climb.sum()) >= 5:
-                entry["reason"] = "observed_missed_approach"
-            landing = has_landing_continuation(track, crossing_time, geometry, config, crossing["reported_speed_mps"])
-            if landing is None and not entry["reason"]:
-                entry["reason"] = "no_observed_landing_continuation"
-        if entry["reason"]:
-            audit.append(entry)
-            continue
-        try:
-            features = snapshot_features(snapshot)
-        except ValueError:
-            entry["reason"] = "snapshot_missing_features"
-            audit.append(entry)
-            continue
-        training.append({**common, "runway": "18R", "snapshot_time_utc": snapshot.timestamp.isoformat(),
-                         **features, TARGET: round(remaining, 6)})
-        landing_time, landing_method = landing
+        training.append({**common, "runway": "18R", "snapshot_time_utc": snapshot.timestamp.isoformat(), **features})
         label = {**common, "snapshot_time_utc": snapshot.timestamp.isoformat(),
-                 "alignment_onset_observation_utc": track.timestamp.iloc[onset_index].isoformat(),
-                 "crossing_time_utc": crossing_time.isoformat(),
-                 "crossing_before_utc": a.timestamp.isoformat(), "crossing_after_utc": b.timestamp.isoformat(),
-                 "crossing_gap_s": crossing["gap_s"],
-                 "remaining_bracket_start_s": (a.timestamp - snapshot.timestamp).total_seconds(),
-                 "remaining_bracket_end_s": (b.timestamp - snapshot.timestamp).total_seconds(),
-                 "crossing_speed_ratio": crossing["speed_ratio"],
-                 "crossing_derived_speed_mps": crossing["derived_speed_mps"],
-                 "crossing_reported_speed_mps": crossing["reported_speed_mps"],
-                 "crossing_latitude_deg": a.latitude + crossing["fraction"] * (b.latitude - a.latitude),
-                 "crossing_longitude_deg": a.longitude + crossing["fraction"] * (b.longitude - a.longitude),
-                 "landing_continuation_observed_utc": landing_time.isoformat(),
-                 "landing_evidence_method": landing_method,
-                 "label_method": "adsb_linear_interpolation", "geometry_status": geometry["geometry_status"]}
+                 **evidence, "geometry_status": geometry["geometry_status"]}
         labels.append(label)
         entry.update(status="accepted", reason="accepted")
         audit.append(entry)

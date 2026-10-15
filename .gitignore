@@ -17,3 +17,6 @@ data_preprocessing/data_research/samples/
 training/checkpoints/
 training/runs/
 training/splits/
+training/*_airplanes/checkpoints/
+training/*_airplanes/runs/
+training/*_airplanes/splits/

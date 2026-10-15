@@ -1,4 +1,13 @@
-# Schiphol ADS-B practice exercise
+# Aircraft approach data preprocessing
+
+The larger multi-airport pipeline is documented in [EXPANSION.md](EXPANSION.md).
+Run `acquire_data.py` and `prepare_expanded.py`; its separate training copy is
+`../training/2596_airplanes/training.csv` with its own `schema.json`. Sources, runway
+directions, threshold coordinates, elevation proxies and provenance are configured
+in `config/sources.json`, `config/runways.json`, `config/approach_rules.json` and
+`config/expansion.json`.
+
+The instructions below retain the original Schiphol exercise and viewer.
 
 Predict seconds from **first confirmed runway alignment** to **runway-threshold crossing**. The initial dataset uses real Schiphol runway 18R arrivals from 15 March 2023.
 
