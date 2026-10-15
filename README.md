@@ -57,19 +57,36 @@ The one-hidden-layer model performs best on this original validation split. Thes
 
 ### 03 · Expanded 2,596 approaches: one hidden layer, 16 → 8 → 1
 
-![Training and validation mean absolute error in seconds over 15,000 epochs for the expanded 2,596-approach dataset](docs/images/03-more-airplanes-mae.png)
+![Training and validation mean absolute error in seconds over 21,604 epochs for the expanded 2,596-approach dataset, with the best epoch at 20,604](docs/images/03-more-airplanes-mae.png)
 
-[03_more_airplanes.ipynb](training/2596_airplanes/03_more_airplanes.ipynb) trains on the larger dataset with 16 inputs and an 8-neuron hidden layer. Its saved run reaches **7.58 s training MAE** and **7.89 s validation MAE** at the best epoch, **15,000**. Early stopping did not trigger in that run. The current notebook code allows up to 30,000 epochs; the graph and numbers here come from the saved 15,000-epoch run.
+[03_more_airplanes.ipynb](training/2596_airplanes/03_more_airplanes.ipynb) trains on the larger dataset with 16 inputs and an 8-neuron hidden layer. Its latest saved run reaches **7.37 s training MAE** and **7.66 s validation MAE** at the best epoch, **20,604**. Early stopping ends training at epoch **21,604**, after 1,000 epochs without validation improvement, then restores the best weights. The maximum allowed run is 30,000 epochs.
 
-Validation covers **389 approaches from 32 airports**: **279/389 predictions (71.7%) are within 10 seconds** of the target. The largest absolute error is 42.36 seconds and the mean signed error is +0.71 seconds.
+Validation covers **389 approaches from 32 airports**: **275/389 predictions (70.7%) are within 10 seconds** of the target. The largest absolute error is 42.35 seconds and the mean signed error is +0.68 seconds.
 
-| Method on the expanded validation set | Validation MAE |
+| Method on the expanded dataset | Validation MAE (389 approaches) | Test MAE (390 approaches) |
+| --- | ---: | ---: |
+| Distance/speed baseline (`baseline_eta_s`) | 34.03 s | 33.70 s |
+| Baseline + correction learned on training data | 14.53 s | 15.37 s |
+| One hidden layer, best validation epoch | **7.66 s** | **7.71 s** |
+
+The network reduces MAE by about **47% versus the corrected baseline on validation** and **50% on test**. Its 7.66 s validation error and the original model's 6.24 s error come from different validation sets with different airport coverage, so they do not isolate the effect of adding data.
+
+#### Final test evaluation: did it match validation?
+
+**Yes, closely in this experiment:** test MAE is **7.71 s**, compared with **7.66 s** on validation. Using the unrounded values, test MAE is just **0.054 s higher (about 0.7%)**. This supports similar average performance on these two held-out flight samples.
+
+| Test result for the selected model | Value |
 | --- | ---: |
-| Distance/speed baseline (`baseline_eta_s`) | 34.03 s |
-| Baseline + correction learned on training data | 14.53 s |
-| One hidden layer, best validation epoch | **7.89 s** |
+| Approaches / airports | 390 / 27 |
+| MAE: average absolute error | 7.71 s |
+| RMSE: error measure that gives more weight to large mistakes | 10.30 s |
+| Predictions within 10 seconds | 281/390 (72.1%) |
+| Largest absolute error | 37.58 s |
+| Mean signed error (`prediction - target`) | -0.004 s (approximately zero) |
 
-The network reduces MAE by about **46% versus the corrected baseline** on this split. Its 7.89 s error and the original model's 6.24 s error come from different validation sets with different airport coverage, so they do not isolate the effect of adding data. The expanded experiment measures held-out flights from the same data mixture; airports may occur in both training and validation. **Its 390 test approaches remain unevaluated**, and performance at entirely unseen airports has not been established.
+**The calculation is the same as validation; the role is different.** Both pass standardized features through the model and compare predicted seconds with target seconds. Validation was checked every epoch to choose the checkpoint. The test cell in Section 13 loads that saved checkpoint only after selection, uses the same training-fitted scaler and evaluates with `model.eval()` and `torch.no_grad()`. It performs no weight updates and fits nothing on test data. The baseline correction is also learned only from training flights. The saved checkpoint was verified to reproduce its recorded validation MAE before test evaluation.
+
+These results assess held-out flights from the same data mixture. Airports can occur in multiple partitions, so this does not establish performance at entirely unseen airports or future dates. If further model choices are based on these test results, a new untouched holdout is needed for another independent final assessment.
 
 The images are extracted from the notebooks' saved outputs, keeping only the MAE panels. The complete loss curves and prediction diagnostics remain in the notebooks. To refresh the README images after saving a new run, use [scripts/export_readme_plots.py](scripts/export_readme_plots.py).
 
@@ -91,7 +108,8 @@ py -3.12 -m venv training/.venv
 1. Open [01_training.ipynb](training/194_airplanes/01_training.ipynb) and select **Aircraft training (Python 3.12)** as the kernel.
 2. Run the cells in order, or choose **Run All**. The notebook loads the original CSV, selects the schema's features, creates the partitions, scales the inputs and trains the model.
 3. Open [02_two_hidden_layers.ipynb](training/194_airplanes/02_two_hidden_layers.ipynb) to compare the second architecture. It runs independently, recreates the same split and saves `02_two_hidden_layers_best.pt` beside the notebook, including model weights, feature order and scaler parameters.
-4. Open [03_more_airplanes.ipynb](training/2596_airplanes/03_more_airplanes.ipynb) to train on all 2,596 approaches using the same kernel. It creates its own expanded-data partitions and saves `03_more_airplanes_best.pt` beside that notebook, including weights, feature order and scaler parameters.
+4. Open [03_more_airplanes.ipynb](training/2596_airplanes/03_more_airplanes.ipynb) to run the 2,596-approach experiment using the same kernel. It creates its own expanded-data partitions and saves `03_more_airplanes_best.pt` beside that notebook, including weights, feature order and scaler parameters.
+5. Section 13 evaluates the selected checkpoint on the reserved test flights. To reproduce that evaluation without retraining, run the imports, dataset loading, feature selection, split and scaling cells, then Section 13. Its saved output already includes the validation/test and baseline comparisons.
 
 All three notebooks already contain saved outputs for reading without running training. Exact installed package versions for the existing environment are recorded in [requirements.lock.txt](training/194_airplanes/requirements.lock.txt).
 

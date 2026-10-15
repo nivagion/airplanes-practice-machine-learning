@@ -9,7 +9,7 @@ Each dataset has its own folder, with `training.csv` and `schema.json` directly 
 
 Both predict `remaining_time_s`: seconds from first confirmed runway alignment to estimated threshold crossing. Use the `feature_columns` list in that folder's schema for model inputs. Identifiers and timestamps are metadata.
 
-The original notebooks and their saved outputs are in `194_airplanes/`. [03_more_airplanes.ipynb](2596_airplanes/03_more_airplanes.ipynb) trains a 16 → 8 → 1 model on the expanded dataset, which has about **13.4 times as many approaches**. Its saved run reports **7.89 s validation MAE** on 389 validation approaches, with 1,817 training and 390 unevaluated test approaches. See the [repository README](../README.md#training-results) for all three MAE graphs and baseline comparisons.
+The original notebooks and their saved outputs are in `194_airplanes/`. [03_more_airplanes.ipynb](2596_airplanes/03_more_airplanes.ipynb) trains a 16 → 8 → 1 model on the expanded dataset, which has about **13.4 times as many approaches**. Its latest saved run reports **7.66 s validation MAE** on 389 approaches and **7.71 s test MAE** on 390 reserved approaches, with 1,817 used for training. Section 13 evaluates the saved checkpoint without retraining. See the [repository README](../README.md#training-results) for all three MAE graphs, baseline comparisons and the test evaluation explanation.
 
 The expanded CSV remains unsplit on disk; notebook 03 creates flight-grouped train/validation/test partitions in memory and fits transformations only on the training partition. Its input size comes from the expanded schema's 16 features.
 

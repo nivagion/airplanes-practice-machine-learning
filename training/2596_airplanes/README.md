@@ -13,13 +13,24 @@ Open [03_more_airplanes.ipynb](03_more_airplanes.ipynb) with the shared
 The flight-grouped split contains **1,817 training**, **389 validation** and
 **390 test** approaches. The scaler is fitted only on training inputs.
 
-The saved run's best epoch is **15,000**, with **7.58 s training MAE** and
-**7.89 s validation MAE**. Early stopping did not trigger. The current code
-allows up to 30,000 epochs; those saved outputs reflect the earlier
-15,000-epoch run. On validation, **279/389 predictions are within 10 seconds**;
-the distance/speed baseline has 34.03 s MAE and the training-corrected baseline
-has 14.53 s MAE. The test partition has not been evaluated. This split holds
-out flights, while airports may appear in both training and validation.
+The latest saved run's best epoch is **20,604**, with **7.37 s training MAE**
+and **7.66 s validation MAE**. Early stopping ends the run at epoch **21,604**
+and restores the selected weights. The maximum allowed run is 30,000 epochs.
+On validation, **275/389 predictions are within 10 seconds**; the distance/speed
+baseline has 34.03 s MAE and the training-corrected baseline has 14.53 s MAE.
+
+Section 13 evaluates the same frozen checkpoint on the **390 reserved test
+approaches from 27 airports**: **7.71 s MAE**, **10.30 s RMSE**, and
+**281/390 predictions (72.1%) within 10 seconds**. The largest error is
+37.58 s. Test MAE is only 0.054 s higher than validation MAE. Test baselines
+have 33.70 s MAE (distance/speed) and 15.37 s MAE (training-corrected).
+
+Test and validation use the same prediction/error calculations. Validation
+selects the checkpoint; test measures that selected model without updating
+weights or fitting a scaler. To reproduce test evaluation without retraining,
+run the imports, dataset loading, feature selection, split and scaling cells,
+then Section 13. This random split holds out flights; airports may appear in
+multiple partitions, so it does not establish unseen-airport performance.
 
 The notebook saves `03_more_airplanes_best.pt` here, including model weights,
 feature order and fitted scaler parameters. Setup instructions, the MAE graph
